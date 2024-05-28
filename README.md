@@ -10,7 +10,6 @@ This is the publication repository of the computer vision and machine learning g
 * if you have the word Award or award in the note field, additional highlighting is added automatically
 * keep all entries up to date with page number specifications etc
 * add the abstract of a paper to the abstract field in the entry
-* PDFs and teaser images have to be placed in ``/home/dbv/publications`` with the name corresponding to the BibTex key used
 * Springer is fine with PDFs of the publications on your own personal page or a research group page. However, you should add a link to their webpage (or a similar reference) in the PDF. Limited and paid access to publications is simply something, nobody should accept anymore in research.
 * link to the source code of your project with the ``code`` keyword in the BibTex entry
 * you can even add HTML to your abstract to for example link to your supplementary material or to other example images
