@@ -1,23 +1,6 @@
-# publication git
+# Publications
 
-This is the publication repository of the computer vision group of the University of Jena.
-
-## Small howto
-1. clone the publication git repo (``git clone gogs@triton.inf-cv.uni-jena.de:ComputerVisionJena/Publications.git``)
-2. Add your bibtex entry to the ``paper.bib``
-3. Commit your changes and push to gitlab repo (``git commit -am "your nice log message" && git push origin master``)
-4. Add your PDF and Teaser image to ``/home/dbv/publications`` with the name corresponding to the BibTex key used
-4. Refresh publication database by browsing url: https://pub.inf-cv.uni-jena.de/refresh
-
-## Important usage hints
-* after updating the publication git, run a database refresh: https://pub.inf-cv.uni-jena.de/refresh
-* URL for Lehrstuhl publication overview: https://www.inf-cv.uni-jena.de/publications.html
-* URL to raw publication overwiev: https://pub.inf-cv.uni-jena.de/
-* a person's publications: https://pub.inf-cv.uni-jena.de/author/Rodner (note: does not work for umlauts in names.)
-* Umlauts in names: handle it using the seach function (eg. https://pub.inf-cv.uni-jena.de/search/Ruehle)
-* List all Publications given a search string: https://pub.inf-cv.uni-jena.de/search/Johannes
-* Windows users: Use Linux-style newline characters!
-
+This is the publication repository of the computer vision and machine learning group at HTW Berlin.
 
 ## Some rules to preserve consistency
 * special characters and the & are NOT allowed!
@@ -37,3 +20,5 @@ This is the publication repository of the computer vision group of the Universit
   * add the commbon acronym in brackets, e.g., IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   * Workshop Proceedings: Conf-Acro Workshop on foo and bar (ConfAcro-WS), e.g., ECCV Workshop on Parts and Attributes (ECCV-WS)
 * Important for journal articles: add the 'volume' and the 'number' (i.e. issue) entry! A 'volume' entry without a 'number' entry will be ignored in the visualization.
+* Windows users: Use Linux-style newline characters!
+
