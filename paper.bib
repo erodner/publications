@@ -1,0 +1,1510 @@
+% Encoding: UTF-8
+
+@article{SimonRD16,
+  author    = {Marcel Simon and Erik Rodner and Joachim Denzler},
+ 
+ 
+ title     = {ImageNet pre-trained models with batch normalization},
+  journal   = {CoRR},
+  volume    = {abs/1612.01452},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1612.01452},
+  archivePrefix = {arXiv},
+  eprint    = {1612.01452},
+  timestamp = {Mon, 13 Aug 2018 16:46:02 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/SimonRD16},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {Convolutional neural networks (CNN) pre-trained on ImageNet are the backbone of most state-of-the-art approaches. In this paper, we present a new set of pretrained models with popular state-of-the-art architectures for the Caffe framework. The first release includes Residual Networks (ResNets) with generation script as well as the batch-normalization-variants of AlexNet and VGG19. All models outperform previous models with the same architecture. The models and training code are available at http://www.inf-cv.uni-jena.de/Research/CNN+Models.html and https://github.com/cvjena/cnn-models.}
+}
+
+@article{Rodner19:Fully,
+  author = {Erik Rodner and Thomas Bocklitz and Ferdinand von Eggeling and G{\"u}nther Ernst and Olga Chernavskaia and J{\"u}rgen Popp and Joachim Denzler and Orlando Guntinas-Lichius},
+  title = {Fully Convolutional Networks in Multimodal Nonlinear Microscopy Images for Automated Detection of Head and Neck Carcinoma: A Pilot Study},
+  journal = {Head and Neck},
+  year = {2019},
+  month = {January},
+  volume = {41},
+  number = {1},
+  pages = {116--121},
+  keywords = {coherent anti-stokes Raman scattering, convolutional neural networks, diagnostics, digital pathology, head and neck cancer, image analysis, second-harmonic generation, semantic segmentation, spectral histopathology, two-photon excited fluorescence},
+  doi = {10.1002/hed.25489},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hed.25489},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hed.25489},
+  abstract = {A fully convolutional neural networks (FCN)-based automated image analysis algorithm to discriminate between head and neck cancer and noncancerous epithelium based on nonlinear microscopic images was developed. Head and neck cancer sections were used for standard histopathology and co-registered with multimodal images from the same sections using the combination of coherent anti-Stokes Raman scattering, two-photon excited fluorescence, and second harmonic generation microscopy. The images analyzed with semantic segmentation using a FCN for four classes: cancer, normal epithelium, background, and other tissue types. A total of 114 images of 12 patients were analyzed. Using a patch score aggregation, the average recognition rate and an overall recognition rate or the four classes were 88.9\% and 86.7\%, respectively. A total of 113â€‰seconds were needed to process a whole-slice image in the dataset. Multimodal nonlinear microscopy in combination with automated image analysis using FCN seems to be a promising technique for objective differentiation between head and neck cancer and noncancerous epithelium.},
+}
+
+@Article{Simon19:Implicit,
+  author   = {Marcel Simon and Erik Rodner and Trevor Darell and Joachim Denzler},
+  journal  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  title    = {The whole is more than its parts? From explicit to implicit pose normalization},
+  year     = {2020},
+  issn     = {0162-8828},
+  month    = {8},
+  volume   = {42},
+  number   = {3},
+  pages    = {749-763},
+  abstract = {Fine-grained classification describes the automated recognition of visually similar object categories like birds species. Previous works were usually based on explicit pose normalization, i.e., the detection and description of object parts. However, recent models based on a final global average or bilinear pooling have achieved a comparable accuracy without this concept. In this paper, we analyze the advantages of these approaches over generic CNNs and explicit pose normalization approaches. We also show how they can achieve an implicit normalization of the object pose. A novel visualization technique called activation flow is introduced to investigate limitations in pose handling in traditional CNNs like AlexNet and VGG. Afterward, we present and compare the explicit pose normalization approach neural activation constellations and a generalized framework for the final global average and bilinear pooling called Î±-pooling. We observe that the latter often achieves a higher accuracy improving common CNN models by up to 22.9%, but lacks the interpretability of the explicit approaches. We present a visualization approach for understanding and analyzing predictions of the model to address this issue. Furthermore, we show that our approaches for fine-grained recognition are beneficial for other fields like action recognition.},
+  doi      = {10.1109/TPAMI.2018.2885764},
+}
+
+@ARTICLE{Barz18:MDI,
+  Title = {Detecting Regions of Maximal Divergence for Spatio-Temporal Anomaly Detection},
+  Author = {Bj{\"o}rn Barz and Erik Rodner and Yanira Guanche Garcia and Joachim Denzler},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2019},
+  month = {May},
+  volume = {41},
+  number = {5},
+  pages = {1088--1101},
+  ISSN = {0162-8828},
+  doi = {10.1109/TPAMI.2018.2823766},
+  groups = {noveltydetection},
+  Note = {(Pre-print published in 2018.)},
+  URL = {https://cvjena.github.io/libmaxdiv/},
+  Code = {https://github.com/cvjena/libmaxdiv},
+  Abstract = {Automatic detection of anomalies in space- and time-varying measurements is an important tool in several fields, e.g., fraud detection, climate analysis, or healthcare monitoring. We present an algorithm for detecting anomalous regions in multivariate spatio-temporal time-series, which allows for spotting the interesting parts in large amounts of data, including video and text data. In opposition to existing techniques for detecting isolated anomalous data points, we propose the "Maximally Divergent Intervals" (MDI) framework for unsupervised detection of coherent spatial regions and time intervals characterized by a high Kullback-Leibler divergence compared with all other data given. In this regard, we define an unbiased Kullback-Leibler divergence that allows for ranking regions of different size and show how to enable the algorithm to run on large-scale data sets in reasonable time using an interval proposal technique. Experiments on both synthetic and real data from various domains, such as climate analysis, video surveillance, and text forensics, demonstrate that our method is widely applicable and a valuable tool for finding interesting events in different types of data.}
+}
+
+@Article{Qaiser18_HIS,
+  author   = {Talha Qaiser and Abhik Mukherjee and Chaitanya Reddy PB and Sai D Munugoti and Vamsi Tallam and Tomi PitkÃ¤aho and Taina LehtimÃ¤ki and Thomas Naughton and Matt Berseth and AnÃ­bal Pedraza and Ramakrishnan Mukundan and Matthew Smith and Abhir Bhalerao and Erik Rodner and Marcel Simon and Joachim Denzler and Chao-Hui Huang and Gloria Bueno and David Snead and Ian O Ellis and Mohammad Ilyas and Nasir Rajpoot},
+  journal  = {Histopathology},
+  title    = {HER2 challenge contest: a detailed assessment of automated HER2 scoring algorithms in whole slide images of breast cancer tissues},
+  year     = {2018},
+  issn     = {1365-2559},
+  number   = {2},
+  pages    = {227--238},
+  volume   = {72},
+  abstract = {Aims
+	Evaluating expression of the human epidermal growth factor receptor 2 (HER2) by visual examination of immunohistochemistry (IHC) on invasive breast cancer (BCa) is a key part of the diagnostic assessment of BCa due to its recognized importance as a predictive and prognostic marker in clinical practice. However, visual scoring of HER2 is subjective, and consequently prone to interobserver variability. Given the prognostic and therapeutic implications of HER2 scoring, a more objective method is required. In this paper, we report on a recent automated HER2 scoring contest, held in conjunction with the annual PathSoc meeting held in Nottingham in June 2016, aimed at systematically comparing and advancing the state-of-the-art artificial intelligence (AI)-based automated methods for HER2 scoring.
+	Methods and results
+	The contest data set comprised digitized whole slide images (WSI) of sections from 86 cases of invasive breast carcinoma stained with both haematoxylin and eosin (H&E) and IHC for HER2. The contesting algorithms predicted scores of the IHC slides automatically for an unseen subset of the data set and the predicted scores were compared with the â€˜ground truthâ€™ (a consensus score from at least two experts). We also report on a simple â€˜Man versus Machineâ€™ contest for the scoring of HER2 and show that the automated methods could beat the pathology experts on this contest data set.
+	Conclusions
+	This paper presents a benchmark for comparing the performance of automated algorithms for scoring of HER2. It also demonstrates the enormous potential of automated algorithms in assisting the pathologist with objective IHC scoring.},
+  doi      = {10.1111/his.13333},
+  keywords = {automated HER2 scoring, biomarker quantification, breast cancer, digital pathology, quantitative immunohistochemistry},
+  url      = {http://dx.doi.org/10.1111/his.13333},
+}
+
+@Article{Flach17_MAD,
+  AUTHOR = {Milan Flach and Fabian Gans and Alexander Brenning and Joachim Denzler and Markus Reichstein and Erik Rodner and Sebastian Bathiany and Paul Bodesheim and Yanira Guanche and Sebasitan Sippel and Miguel D. Mahecha},
+  TITLE = {Multivariate anomaly detection for Earth observations: a comparison of algorithms and feature extraction techniques},
+  JOURNAL = {Earth System Dynamics},
+  VOLUME = {8},
+  YEAR = {2017},
+  NUMBER = {3},
+  PAGES = {677--696},
+  URL = {https://www.earth-syst-dynam.net/8/677/2017/},
+  DOI = {10.5194/esd-8-677-2017}
+}
+
+
+@article{aubreville2017automatic,
+    journal={Scientific Reports},
+    year={2017},
+    title={Automatic Classification of Cancerous Tissue in Laserendomicroscopy Images of the Oral Cavity using Deep Learning},
+    url={https://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2017/Aubreville17-ACO.pdf},
+    author={Marc Aubreville and Christian Knipfer and Nicolai Oetter and Christian Jaremenko and Erik Rodner and Joachim Denzler and Christopher Bohr and Helmut Neumann and Florian Stelzle and Andreas Maier},
+    doi={10.1038/s41598-017-12320-8},
+    number={1},
+    pages={41598--017},
+    volume={7},
+    groups = {biomed,deeplearning}
+}
+
+@ARTICLE{Rodner17_DBF,
+  title={Deep bilinear features for Her2 scoring in digital pathology},
+  author={Erik Rodner and Marcel Simon and Joachim Denzler},
+  journal={Current Directions in Biomedical Engineering},
+  volume={3},
+  number={2},
+  year={2017},
+  pages={811--814},
+  publisher={De Gruyter},
+  groups = {biomed,deeplearning}
+}
+@inproceedings{Simon17_GOP,
+  title={Generalized orderless pooling performs implicit salient matching},
+  author={Marcel Simon and Yang Gao and Trevor Darrell and Joachim Denzler and Erik Rodner},
+  booktitle = {International Conference on Computer Vision (ICCV)},
+  year = {2017},
+  pages = {4970--4979},
+  groups = {deeplearning,finegrained}
+}
+
+@INPROCEEDINGS{Barz17:MDI-Weather,
+  Title = {Maximally Divergent Intervals for Extreme Weather Event Detection},
+  Author = {Bj{\"o}rn Barz and Yanira Guanche and Erik Rodner and Joachim Denzler},
+  Booktitle = {MTS/IEEE OCEANS Conference Aberdeen},
+  groups = {noveltydetection},
+  Year = {2017},
+  Month = {June},
+  Pages = {1-9},
+  doi = {10.1109/OCEANSE.2017.8084569},
+  Abstract = {We  approach  the  task  of  detecting  anomalous  or extreme events in multivariate spatio-temporal climate data using an  unsupervised  machine  learning  algorithm  for  detection  of anomalous  intervals  in  time-series.  In  contrast  to  many  existing algorithms  for  outlier  and  anomaly  detection,  our  method  does not  search  for  point-wise  anomalies,  but  for  contiguous  anomalous  intervals.  We  demonstrate  the  suitability  of  our  approach through numerous experiments on climate data, including detection  of  hurricanes,  North  Sea  storms,  and  low-pressure  fields.}
+}
+
+@INPROCEEDINGS{Campos16_BLA,
+    author = {Yerania Campos and Erik Rodner and Joachim Denzler and Humberto Sossa and Gonzalo Pajares},
+    title = {Vegetation segmentation in cornfield images using bag of words},
+    url = {https://link.springer.com/chapter/10.1007/978-3-319-48680-2_18},
+    booktitle = {Advanced Concepts for Intelligent Vision Systems (ACIVS)},
+    year = {2016},
+    doi = {10.1007/978-3-319-48680-2_18},
+    groups = {biomed},
+    pages = {193--204},
+    abstract = {We provide an alternative methodology for vegetation segmentation in cornfield images. The process includes two main steps, which makes the main contribution of this approach: (a) a low-level segmentation and (b) a class label assignment using Bag of Words (BoW) representation in conjunction with a supervised learning framework. The experimental results show our proposal is adequate to extract green plants in images of maize fields. The accuracy for classification is 95.3 % which is comparable to values in current literature.},
+}
+
+@INPROCEEDINGS{Denzler16_CNNA,
+    author = {Joachim Denzler and Erik Rodner and Marcel Simon},
+    title = {Convolutional Neural Networks as a Computational Model for the Underlying Processes of Aesthetics Perception},
+    booktitle = {ECCV Workshop on Computer Vision for Art Analysis},
+    year = {2016},
+    groups = {art},
+    url  = {https://www.springerprofessional.de/convolutional-neural-networks-as-a-computational-model-for-the-u/10711224}
+}
+
+@INPROCEEDINGS{Kaeding16_ACE,
+    author = {Christoph K{\"a}ding and Erik Rodner and Alexander Freytag and Joachim Denzler},
+    title = {Active and Continuous Exploration with Deep Neural Networks and Expected Model Output Changes},
+    booktitle = {NIPS Workshop on Continual Learning and Deep Networks (NIPS-WS)},
+    year = {2016},
+    groups = {deeplearning,lifelonglearning,activelearning},
+    url = {https://sites.google.com/site/cldlnips2016/},
+    abstract = {The demands on visual recognition systems do not end with the complexity offered
+by current large-scale image datasets, such as ImageNet. In consequence, we need
+curious and continuously learning algorithms that actively acquire knowledge about
+semantic concepts which are present in available unlabeled data. As a step towards
+this goal, we show how to perform continuous active learning and exploration,
+where an algorithm actively selects relevant batches of unlabeled examples for
+annotation. These examples could either belong to already known or to yet undiscovered
+classes. Our algorithm is based on a new generalization of the Expected
+Model Output Change principle for deep architectures and is especially tailored to
+deep neural networks. Furthermore, we show easy-to-implement approximations
+that yield efficient techniques for active selection. Empirical experiments show that
+our method outperforms currently used heuristics.}
+}
+
+@INPROCEEDINGS{Kaeding16_FDN,
+    author = {Christoph K{\"a}ding and Erik Rodner and Alexander Freytag and Joachim Denzler},
+    title = {Fine-tuning Deep Neural Networks in Continuous Learning Scenarios},
+    booktitle = {ACCV Workshop on Interpretation and Visualization of Deep Neural Nets (ACCV-WS)},
+    year = {2016},
+    groups = {deeplearning,lifelonglearning,incrementallearning},
+    url = {http://www.interpretable-ml.org/accv2016workshop/},
+    abstract = {The revival of deep neural networks and the availability of ImageNet
+laid the foundation for recent success in highly complex recognition tasks. However,
+ImageNet does not cover all visual concepts of all possible application scenarios.
+Hence, application experts still record new data constantly and expect the
+data to be used upon its availability. In this paper, we follow this observation
+and apply the classical concept of fine-tuning deep neural networks to scenarios
+where data from known or completely new classes is continuously added.
+Besides a straightforward realization of continuous fine-tuning, we empirically
+analyze how computational burdens of training can be further reduced. Finally,
+we visualize how the networkâ€™s attention maps evolve over time which allows for
+visually investigating what the network learned during continuous fine-tuning.}
+}
+
+@INPROCEEDINGS{Jaeger16_OPC,
+  title                    = {SeaCLEF 2016: Object Proposal Classification for Fish Detection in Underwater Videos},
+  author                   = {Jonas J{\"a}ger and Erik Rodner and Joachim Denzler and Viviane Wolff and Klaus Fricke-Neuderth},
+  booktitle                = {Working Notes of CLEF 2016 - Conference and Labs of the Evaluation forum},
+  year                     = {2016},
+  pages                    = {481-489},
+  publisher                = {CEUR Workshop Proceedings},
+  groups = {biodiversity,finegrained}
+}
+
+@INPROCEEDINGS{Amthor16_IDD,
+  author = {Manuel Amthor and Erik Rodner and Joachim Denzler},
+  title = {Impatient DNNs - Deep Neural Networks with Dynamic Time Budgets},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year = {2016},
+  groups = {deeplearning},
+}
+
+@INPROCEEDINGS{Rodner16_FRN,
+  author = {Erik Rodner and Marcel Simon and Bob Fisher and Joachim Denzler},
+  title = {Fine-grained Recognition in the Noisy Wild: Sensitivity Analysis of Convolutional Neural Networks Approaches},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year = {2016},
+  groups = {finegrained,deeplearning},
+}
+
+@InProceedings{Kaeding16_LAA,
+  author    = {Christoph K{\"a}ding and Alexander Freytag and Erik Rodner and Andrea Perino and Joachim Denzler},
+  booktitle = {German Conference on Pattern Recognition (GCPR)},
+  title     = {Large-scale Active Learning with Approximated Expected Model Output Changes},
+  year      = {2016},
+  pages     = {179--191},
+  abstract  = {Incremental learning of visual concepts is one step towards reaching human capabilities beyond closed-world assumptions. Besides recent progress, it remains one of the fundamental challenges in computer vision and machine learning. Along that path, techniques are needed which allow for actively selecting informative examples from a huge pool of unlabeled images to be annotated by application experts. Whereas a manifold of active learning techniques exists, they commonly suffer from one of two drawbacks: (i) either they do not work reliably on challenging real-world data or (ii) they are kernel-based and not scalable with the magnitudes of data current vision applications need to deal with. Therefore, we present an active learning and discovery approach which can deal with huge collections of unlabeled real-world data. Our approach is based on the expected model output change principle and overcomes previous scalability issues. We present experiments on the large-scale MS-COCO dataset and on a dataset provided by biodiversity researchers. Obtained results reveal that our technique clearly improves accuracy after just a few annotations. At the same time, it outperforms previous active learning approaches in academic and real-world scenarios.},
+  code      = {http://triton.inf-cv.uni-jena.de/LifelongLearning/gpEMOC},
+  doi       = {10.1007/978-3-319-45886-1_15},
+  groups    = {activelearning,lifelonglearning,biodiversity},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-319-45886-1_15},
+}
+
+@InProceedings{Freytag16_CFW,
+  author    = {Alexander Freytag and Erik Rodner and Marcel Simon and Alexander Loos and Hjalmar K{\"u}hl and Joachim Denzler},
+  booktitle = {German Conference on Pattern Recognition (GCPR)},
+  title     = {Chimpanzee Faces in the Wild: Log-Euclidean CNNs for Predicting Identities and Attributes of Primates},
+  year      = {2016},
+  pages     = {51--63},
+  abstract  = {In this paper, we investigate how to predict attributes of chimpanzees such as identity, age, age group, and gender. We build on convolutional neural networks, which lead to significantly superior results compared with previous state-of-the-art on hand-crafted recognition pipelines. In addition, we show how to further increase discrimination abilities of CNN activations by the Log-Euclidean framework on top of bilinear pooling. We finally introduce two curated datasets consisting of chimpanzee faces with detailed meta-information to stimulate further research. Our results can serve as the foundation for automated large-scale animal monitoring and analysis.},
+  doi       = {10.1007/978-3-319-45886-1_5},
+  groups    = {biodiversity},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-319-45886-1_5},
+}
+
+@INPROCEEDINGS{Guanche16_DMB,
+  title = {Detecting Multivariate Biosphere Extremes},
+  author = {Yanira Guanche Garcia and Erik Rodner and Milan Flach and Sebastian Sippel and Miguel Mahecha and Joachim Denzler},
+  booktitle = {International Workshop on Climate Informatics (CI)},
+  year = {2016},
+  abstract = {The detection of anomalies in multivariate time series is crucial to identify changes in the ecosystems. We propose an intuitive methodology to assess the occurrence of tail events of multiple biosphere variables.},
+  groups = {noveltydetection},
+  pages = {9--12},
+  url = {http://dx.doi.org/10.5065/D6K072N6},
+  doi = {10.5065/D6K072N6},
+}
+
+@INPROCEEDINGS{Rodner16:MDI,
+    Title = {Maximally Divergent Intervals for Anomaly Detection},
+    Author = {Erik Rodner and Bj{\"o}rn Barz and Yanira Guanche and Milan Flach and Miguel Mahecha and Paul Bodesheim and Markus Reichstein and Joachim Denzler},
+    Booktitle = {ICML Workshop on Anomaly Detection (ICML-WS)},
+    groups = {noveltydetection},
+    Year = {2016},
+    Code = {https://cvjena.github.io/libmaxdiv/},
+    Note = {Best Paper Award}
+}
+
+@ARTICLE{Guadarrama15:UOD,
+    author = {Sergio Guadarrama and Erik Rodner and Kate Saenko and Trevor Darrell},
+    title = {Understanding Object Descriptions in Robotics by Open-vocabulary Object Retrieval and Detection},
+    journal = {International Journal of Robotics Research (IJRR)},
+    volume = {35},
+    number = {1-3},
+    pages = {265-280},
+    month = {October},
+    doi = {10.1177/0278364915602059},
+    url = {http://ijr.sagepub.com/content/35/1-3/265.abstract},
+    groups = {deeplearning},
+    year = {2015}
+}
+
+@INPROCEEDINGS{Rodner15:ACM,
+    title = {Analysis and Classification of Microscopy Images with Cell Border Distance Statistics},
+    author = {Erik Rodner and Wolfgang Ortmann and Andreas Dittberner and
+    Joachim Stadler and Carsten Schmidt and Iver Petersen and Andreas Stallmach
+    and Joachim Denzler and Orlando Guntinas-Lichius},
+    year = {2015},
+    booktitle = {Jahrestagung der Deutschen Gesellschaft f{\"u}r Medizinische Physik (DGMP)},
+    groups = {biomed}
+}
+
+@ARTICLE{Dittberner15:AAC,
+    author = {Andreas Dittberner and Erik Rodner and Wolfgang Ortmann and Joachim Stadler and  Carsten Schmidt and Iver Petersen and Andreas Stallmach and Joachim Denzler and Orlando Guntinas-Lichius},
+    title = {Automated analysis of confocal laser endomicroscopy images to detect head and neck cancer},
+    year = {2015},
+    journal = {Head and Neck},
+    month = {April},
+    volume = {38},
+    number = {1},
+    doi = {10.1002/hed.24253},
+    url = {http://onlinelibrary.wiley.com/doi/10.1002/hed.24253/abstract;jsessionid=9C525879C44676D6CE47CFC244ADA853.f01t04},
+    groups = {biomed},
+    publisher = {Wiley Periodicals},
+}
+
+@INPROCEEDINGS{Kaeding16_WALI,
+  title = {Watch, Ask, Learn, and Improve: A Lifelong Learning Cycle for Visual Recognition},
+  author = {Christoph K{\"a}ding and Erik Rodner and Alexander Freytag and Joachim Denzler},
+  booktitle = {European Symposium on Artificial Neural Networks (ESANN)},
+  year = {2016},
+  pages = {381--386},
+  groups = {activelearning,noveltydetection,lifelonglearning},
+  code = {http://triton.inf-cv.uni-jena.de/LifelongLearning/gpEMOC},
+  abstract = {We present WALI, a prototypical system that learns object categories
+over time by continuously watching online videos. WALI actively asks questions
+to a human annotator about the visual content of observed video frames. Thereby,
+WALI is able to receive information about new categories and to simultaneously
+improve its generalization abilities. The functionality of WALI is driven by scalable
+active learning, efficient incremental learning, as well as state-of-the-art visual descriptors.
+In our experiments, we show qualitative and quantitative statistics about
+WALI's learning process. WALI runs continuously and regularly asks questions.}
+}
+
+@INPROCEEDINGS{Kaeding15_ALD,
+  author = {Christoph K{\"a}ding and Alexander Freytag and Erik Rodner and Paul Bodesheim and Joachim
+	Denzler},
+  title = {Active Learning and Discovery of Object Categories in the Presence of Unnameable Instances},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2015},
+  url = {http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Kading_Active_Learning_and_2015_CVPR_paper.html},
+  pages = {4343-4352},
+  code = {http://triton.inf-cv.uni-jena.de/LifelongLearning/gpEMOC},
+  groups = {activelearning,noveltydetection,lifelonglearning},
+  abstract = {Current visual recognition algorithms are "hungry" for data but massive annotation is extremely costly. Therefore, active learning algorithms are required that reduce labeling efforts to a minimum by selecting examples that are most valuable for labeling. In active learning, all categories occurring in collected data are usually assumed to be known in advance and experts should be able to label every requested instance. But do these assumptions really hold in practice? Could you name all categories in every image? Existing algorithms completely ignore the fact that there are certain examples where an oracle can not provide an answer or which even do not belong to the current problem domain. Ideally, active learning techniques should be able to discover new classes and at the same time cope with queries an expert is not able or willing to label. To meet these observations, we present a variant of the expected model output change principle for active learning and discovery in the presence of
+unnameable instances. Our experiments show that in these realistic scenarios, our approach substantially outperforms previous active learning methods, which are often not even able to improve with respect to the baseline of random query selection.}
+}
+
+@INPROCEEDINGS{Bodesheim15:LND,
+  author = {Paul Bodesheim and Alexander Freytag and Erik Rodner and Joachim
+	Denzler},
+  title = {Local Novelty Detection in Multi-class Recognition Problems},
+  booktitle = {IEEE Winter Conference on Applications of Computer
+	Vision (WACV)},
+  year = {2015},
+  pages = {813--820},
+  groups = {lifelonglearning,noveltydetection}
+}
+
+@ARTICLE{Barz14:ART,
+  author = {Bj{\"o}rn Barz and Erik Rodner and Joachim Denzler},
+  title = {ARTOS -- Adaptive Real-Time Object Detection System},
+  journal = {arXiv preprint arXiv:1407.2721},
+  year = {2014},
+  abstract = {ARTOS is all about creating, tuning, and applying object detection
+	models with just a few clicks. In particular, ARTOS facilitates learning
+	of models for visual object detection by eliminating the burden of
+	having to collect and annotate a large set of positive and negative
+	samples manually and in addition it implements a fast learning technique
+	to reduce the time needed for the learning step. A clean and friendly
+	GUI guides the user through the process of model creation, adaptation
+	of learned models to different domains using in-situ images, and
+	object detection on both offline images and images from a video stream.
+	A library written in C++ provides the main functionality of ARTOS
+	with a C-style procedural interface, so that it can be easily integrated
+	with any other project.},
+  code = {http://cvjena.github.io/artos/},
+  groups = {adaptivelearning,lifelonglearning,sceneunderstanding},
+  url = {http://arxiv.org/abs/1407.2721}
+}
+
+@INPROCEEDINGS{Simon15:NAC,
+   author = {Marcel Simon and Erik Rodner},
+    title = {Neural Activation Constellations: Unsupervised Part Model Discovery with Convolutional Networks},
+    booktitle = {International Conference on Computer Vision (ICCV)},
+    year = {2015},
+    pages={1143--1151},
+    url   = {http://arxiv.org/abs/1504.08289},
+    groups = {featurelearning,finegrained},
+    abstract = {Part models of object categories are essential for challenging recognition tasks, where differences in categories are subtle and only reflected in appearances of small parts of the object. We present an approach that is able to learn part models in a completely unsupervised manner, without part annotations and even without given bounding boxes during learning. The key idea is to find constellations of neural activation patterns computed using convolutional neural networks. In our experiments, we outperform existing approaches for fine-grained recognition on the CUB200-2011, Oxford PETS, and Oxford Flowers dataset in case no part or bounding box annotations are available and achieve state-of-the-art performance for the Stanford Dog dataset. We also show the benefits of neural constellation models as a data augmentation technique for fine-tuning. Furthermore, our paper unites the areas of generic and fine-grained classification, since our approach is suitable for both scenarios.}
+}
+
+@TechReport{Bodesheim13:AEA,
+  author = {Paul Bodesheim and Alexander Freytag and Erik Rodner and Joachim Denzler},
+  title  = {An Efficient Approximation for Gaussian Process Regression},
+  year   = {2013},
+  month  = {January},
+  note   = {Technical Report TR-FSU-INF-CV-2013-01},
+  groups = {lifelonglearning,noveltydetection,gaussianprocesses},
+  school = {Computer Vision Group, Friedrich Schiller University Jena, Germany},
+}
+
+@INPROCEEDINGS{Bodesheim13:AOG,
+  author = {Paul Bodesheim and Alexander Freytag and Erik Rodner and Joachim
+	Denzler},
+  title = {Approximations of Gaussian Process Uncertainties for Visual Recognition
+	Problems},
+  booktitle = {Scandinavian Conference on Image Analysis (SCIA)},
+  groups = {lifelonglearning,noveltydetection,gaussianprocesses},
+  year = {2013},
+  pages = {182--194},
+
+}
+
+@INPROCEEDINGS{Bodesheim13:KNS,
+  author = {Paul Bodesheim and Alexander Freytag and Erik Rodner and Michael
+	Kemmler and Joachim Denzler},
+  title = {Kernel Null Space Methods for Novelty Detection},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  code = {https://github.com/cvjena/knfst},
+  url = {http://www.inf-cv.uni-jena.de/novelty_detection.html},
+  groups = {lifelonglearning,noveltydetection},
+  year = {2013},
+  pages = {3374--3381},
+
+}
+
+@INPROCEEDINGS{Bodesheim12:DOC,
+  author = {Paul Bodesheim and Erik Rodner and Alexander Freytag and Joachim
+	Denzler},
+  title = {Divergence-Based One-Class Classification Using Gaussian Processes},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year = {2012},
+  pages = {50.1--50.11},
+  groups = {lifelonglearning,noveltydetection,gaussianprocesses},
+  note = {http://dx.doi.org/10.5244/C.26.50},
+
+}
+
+@InProceedings{Brust15:CPN,
+  author    = {Clemens-Alexander Brust and Sven Sickert and Marcel Simon and Erik Rodner and Joachim Denzler},
+  booktitle = {International Conference on Computer Vision Theory and Applications (VISAPP)},
+  title     = {Convolutional Patch Networks with Spatial Prior for Road Detection and Urban Scene Understanding},
+  year      = {2015},
+  pages     = {510-517},
+  abstract  = {Classifying single image patches is important in many different applications, such as road detection or scene understanding.
+In this paper, we present convolutional patch networks, which are convolutional networks learned to distinguish different image patches and
+which can be used for pixel-wise labeling.
+We also show how to incorporate spatial information of the patch as an input to the network, which allows for learning spatial priors for
+certain categories jointly with an appearance model.
+In particular, we focus on road detection and urban scene understanding, two application areas where we are able to achieve state-of-the-art
+results on
+the KITTI as well as on the LabelMeFacade dataset.
+
+Furthermore, our paper offers a guideline for people working in the area and desperately wandering through all the painstaking details that
+render training CNs on image patches extremely difficult.},
+  code      = {http://cvjena.github.io/cn24/},
+  groups    = {semanticsegmentation,sceneunderstanding,deeplearning,biomed},
+  url       = {http://arxiv.org/abs/1502.06344},
+}
+
+@INPROCEEDINGS{Rodner15:FRD,
+  author = {Erik Rodner and Marcel Simon and Gunnar Brehm and Stephanie Pietsch and J. Wolfgang W{\"a}gele and Joachim Denzler},
+  title = {Fine-grained Recognition Datasets for Biodiversity Analysis},
+  booktitle = {CVPR Workshop on Fine-grained Visual Classification (CVPR-WS)},
+  year = {2015},
+  groups = {deeplearning,finegrained},
+  url = {http://www.inf-cv.uni-jena.de/fgvcbiodiv}
+}
+
+@INPROCEEDINGS{Brust15:ECP,
+  author = {Clemens-Alexander Brust and Sven Sickert and Marcel Simon and Erik Rodner and Joachim Denzler},
+  title = {Efficient Convolutional Patch Networks for Scene Understanding},
+  booktitle = {CVPR Workshop on Scene Understanding (CVPR-WS)},
+  year = {2015},
+  groups = {semanticsegmentation,sceneunderstanding,deeplearning,biomed},
+  abstract = {In this paper, we present convolutional patch networks, which are convolutional (neural) networks (CNN) learned to distinguish
+different image patches and which can be used for pixel-wise labeling. We show how to easily learn spatial priors for certain categories jointly
+with their appearance. Experiments for urban scene understanding demonstrate state-of-the-art results on the LabelMeFacade dataset. Our approach
+is implemented as a new CNN framework especially designed for semantic segmentation with fully-convolutional architectures.},
+  code = {http://cvjena.github.io/cn24/},
+}
+
+@ARTICLE{Brust16:EQL,
+  author = {Clemens-Alexander Brust and Sven Sickert and Marcel Simon and Erik Rodner and Joachim Denzler},
+  title = {Neither Quick Nor Proper -- Evaluation of QuickProp for Learning Deep Neural Networks},
+  year = {2016},
+  month = {June},
+  journal = {arXiv preprint arXiv:1606.04333},
+  url = {https://arxiv.org/abs/1606.04333},
+  groups = {semanticsegmentation,deeplearning},
+  abstract = {Neural networks and especially convolutional neural networks are of great
+	interest in current computer vision research. However, many techniques, extensions,
+	and modifications have been published in the past, which are not yet used by
+	current approaches. In this paper, we study the application of a method called
+	QuickProp for training of deep neural networks. In particular, we apply QuickProp
+	during learning and testing of fully convolutional networks for the task of
+	semantic segmentation. We compare QuickProp empirically with gradient descent,
+	which is the current standard method. Experiments suggest that QuickProp can not
+	compete with standard gradient descent techniques for complex computer vision
+	tasks like semantic segmentation.},
+}
+
+@INPROCEEDINGS{Denzler13:BTC,
+  author = {Joachim Denzler and Erik Rodner and Paul Bodesheim and Alexander
+	Freytag},
+  title = {Beyond the closed-world assumption: The importance of novelty detection
+	and open set recognition},
+  groups = {lifelonglearning},
+  booktitle = {GCPR Workshop on Unsolved Problems in Pattern Recognition (GCPR-WS)},
+  year = {2013}
+}
+
+@INPROCEEDINGS{Donahue13:SSD,
+  author = {Jeff Donahue and Judy Hoffman and Erik Rodner and Kate Saenko and
+	Trevor Darrell},
+  title = {Semi-Supervised Domain Adaptation with Instance Constraints},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  groups = {tracking,lifelonglearning,adaptivelearning},
+  year = {2013},
+  pages = {668 - 675},
+
+}
+
+@INPROCEEDINGS{Flach16:USP,
+    title = {Using Statistical Process Control for detecting anomalies in multivariate spatiotemporal Earth Observations},
+    author = {Milan Flach and Miguel Mahecha and Fabian Gans and Erik Rodner and Paul Bodesheim and Yanira Guanche-Garcia and Alexander Brenning and Joachim Denzler and Markus Reichstein},
+    groups = {noveltydetection},
+    booktitle = {European Geosciences Union General Assembly},
+    url = {http://meetingorganizer.copernicus.org/EGU2016/EGU2016-7948-2.pdf},
+    year = {2016}
+}
+
+@ARTICLE{Flach16:MAD,
+    title = {Multivariate Anomaly Detection for Earth Observations: A Comparison of Algorithms and Feature Extraction Techniques},
+    author = {Milan Flach and Fabian Gans and Alexander Brenning and Joachim Denzler and Markus Reichstein and Erik Rodner and Sebastian Bathiany and Paul Bodesheim and Yanira Garcia Guanche and Sebastian Sippel and Miguel Mahecha},
+    groups = {noveltydetection},
+    journal = {Earth System Dynamics},
+    url = {http://www.earth-syst-dynam-discuss.net/esd-2016-51/},
+    note = {in discussion},
+    year = {2016}
+}
+
+@INPROCEEDINGS{Froehlich12:ATG,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Joachim Denzler},
+  title = {As Time Goes By: Anytime Semantic Segmentation with Iterative Context
+	Forests},
+  booktitle = {Symposium of the German Association for Pattern Recognition (DAGM)},
+  year = {2012},
+  pages = {1--10},
+  keywords = {semantic segmentation, context, decision forest, anytime},
+  groups = {semanticsegmentation,sceneunderstanding},
+}
+
+@INPROCEEDINGS{Froehlich12:SSM,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Joachim Denzler},
+  title = {Semantic Segmentation with Millions of Features: Integrating Multiple
+	Cues in a Combined Random Forest Approach},
+  booktitle = {Asian Conference on Computer Vision (ACCV)},
+  groups = {semanticsegmentation,sceneunderstanding},
+  year = {2012},
+  pages = {218--231},
+}
+
+@INPROCEEDINGS{Froehlich10:AFA,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Joachim Denzler},
+  title = {A Fast Approach for Pixelwise Labeling of Facade Images},
+  booktitle = {International Conference on Pattern Recognition
+	(ICPR)},
+  year = {2010},
+  volume = {7},
+  groups = {semanticsegmentation,sceneunderstanding},
+  pages = {3029--3032},
+  month = {8},
+}
+
+@ARTICLE{Froehlich13:GSS,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Michael Kemmler and Joachim
+	Denzler},
+  title = {Large-Scale Gaussian Process Multi-Class Classification for Semantic
+	Segmentation and Facade Recognition},
+  journal = {Machine Vision and Applications},
+  year = {2013},
+  volume = {24},
+  pages = {1043--1053},
+  number = {5},
+  groups = {semanticsegmentation,sceneunderstanding,gaussianprocesses,largescale}
+}
+
+@ARTICLE{Froehlich12:LGP,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Michael Kemmler and Joachim
+	Denzler},
+  title = {Large-Scale Gaussian Process Classification using Random Decision
+	Forests},
+  journal = {Pattern Recognition and Image Analysis. Advances in Mathematical
+	Theory and Applications (PRIA)},
+  year = {2012},
+  volume = {22},
+  pages = {113--120},
+  number = {1},
+  groups = {gaussianprocesses,largescale},
+}
+
+@ARTICLE{Froehlich11:EGp,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Michael Kemmler and Joachim
+	Denzler},
+  title = {Efficient Gaussian process classification using random decision forests},
+  journal = {Pattern Recognition and Image Analysis. Advances in Mathematical
+	Theory and Applications (PRIA)},
+  year = {2011},
+  volume = {21},
+  pages = {184-187},
+  note = {10.1134/S1054661811020337},
+  groups = {gaussianprocesses,largescale},
+}
+
+@INPROCEEDINGS{Froehlich10:EGP,
+  author = {Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Michael Kemmler and Joachim
+	Denzler},
+  title = {Efficient Gaussian Process Classification using Random Decision Forests},
+  booktitle = {International Conference on Pattern Recognition
+	and Image Analysis (PRIA),
+	St. Petersburg, Russia},
+  year = {2010},
+  pages = {93--96},
+  month = {12},
+  groups = {gaussianprocesses,largescale},
+}
+
+@INPROCEEDINGS{Freytag12:ESS,
+  author = {Alexander Freytag and Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and
+	Joachim Denzler},
+  title = {Efficient Semantic Segmentation with Gaussian Processes and Histogram
+	Intersection Kernels},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
+  year = {2012},
+  pages = {3313--3316},
+  keywords = {gaussian processes, histogram intersection kernels, semantic segmentation},
+  groups = {semanticsegmentation,sceneunderstanding,gaussianprocesses,largescale},
+}
+
+@INPROCEEDINGS{Freytag14:STB,
+  author = {Alexander Freytag and Johannes R{\"u}hle and Paul Bodesheim and Erik Rodner and Joachim Denzler},
+  title = {Seeing through bag-of-visual-word glasses: towards understanding
+	quantization effects in feature extraction methods},
+  booktitle = {International Conference on Pattern Recognition (ICPR) - FEAST workshop},
+  year = {2014},
+  note = {Best Poster Award},
+  abstract = {The bag-of-visual-word (BoW) model is one of the most common concepts for image categorization and feature extraction.
+Although our community developed powerful BoW approaches for visual recognition
+and it serves as a great ad-hoc solution, unfortunately, there are several drawbacks that most researchers might be not aware of.
+In this paper, we aim at seeing behind the curtains and point to some of the negative aspects of these approaches which  go usually unnoticed:
+(i) although BoW approaches are often motivated by relating clusters to meaningful object parts, this relation does not hold in practice with low-dimensional features such as HOG, and standard
+clustering method,
+(ii) clusters can be chosen randomly without loss in performance,
+(iii) BoW is often only collecting background statistics, and
+(iv) cluster assignments are not robust to small spatial shifts.
+Furthermore, we show the effect of BoW quantization and the related loss of visual information by a simple inversion method called HoggleBoW.},
+  groups = {recognitionanalysis,visualrecognition},
+  code = {https://github.com/cvjena/bowInversion},
+
+}
+
+@INPROCEEDINGS{Freytag13:LET,
+  author = {Alexander Freytag and Erik Rodner and Paul Bodesheim and Joachim
+	Denzler},
+  title = {Labeling examples that matter: Relevance-Based Active Learning with
+	Gaussian Processes},
+  booktitle = {German Conference on Pattern Recognition (GCPR)},
+  year = {2013},
+  pages = {282--291},
+  abstract = {Active learning is an essential tool to reduce manual annotation costs
+	in the presence of large amounts of unsupervised data. In this paper,
+	we introduce new active learning methods based on measuring the impact
+	of a new example on the current model. This is done by deriving model
+	changes of Gaussian process models in closed form.
+
+	Furthermore, we study typical pitfalls in active learning and show
+	that our methods automatically balance between the exploitation and
+	the exploration trade-off. Experiments are performed with established
+	benchmark datasets for visual object recognition and show that our
+	new active learning techniques are able to outperform state-of-the-art
+	methods.
+
+	<p> <a href="http://www.inf-cv.uni-jena.de">Supplementary Material</a>
+	</p>},
+  code = {https://github.com/cvjena/activeLearning-GP},
+  groups = {gaussianprocesses,activelearning,lifelonglearning},
+
+}
+
+@INPROCEEDINGS{Freytag12:BCL,
+  author = {Alexander Freytag and Erik Rodner and Paul Bodesheim and Joachim
+	Denzler},
+  title = {Beyond Classification - Large-scale Gaussian Process Inference and
+	Uncertainty Prediction},
+  booktitle = {Big Data Meets Computer Vision: First International Workshop on Large
+	Scale Visual Recognition and Retrieval (NIPS-WS)},
+  year = {2012},
+  note = {This workshop article is a short version abstract of our ACCV'12
+	paper.},
+  groups = {gaussianprocesses,largescale},
+  keywords = {gaussian processes, histogram intersection kernels, large-scale classification,
+	uncertainty prediction},
+
+}
+
+@INPROCEEDINGS{Freytag12:RUC,
+  author = {Alexander Freytag and Erik Rodner and Paul Bodesheim and Joachim
+	Denzler},
+  title = {Rapid Uncertainty Computation with Gaussian Processes and Histogram
+	Intersection Kernels},
+  booktitle = {Asian Conference on Computer Vision (ACCV)},
+  year = {2012},
+  pages = {511--524},
+  note = {Best Paper Honorable Mention Award},
+  groups = {gaussianprocesses,activelearning,largescale},
+
+}
+
+@ARTICLE{Rodner16_LGP,
+    title = {Large-Scale Gaussian Process Inference with Generalized Histogram Intersection Kernels for Visual Recognition Tasks},
+    author = {Erik Rodner and Alexander Freytag and Paul Bodesheim and Bj{\"o}rn Fr{\"o}hlich and Joachim Denzler},
+    year = {2017},
+    journal = {International Journal of Computer Vision (IJCV)},
+    pages = {253--280},
+    volume = {121},
+    number = {2},
+    issn={1573-1405},
+    doi={10.1007/s11263-016-0929-y},
+    url={http://dx.doi.org/10.1007/s11263-016-0929-y},
+    groups = {gaussianprocesses,activelearning,largescale,lifelonglearning,incrementallearning},
+    keywords = {gaussian processes, incremental learning, histogram intersection kernel},
+}
+
+@INPROCEEDINGS{Freytag14:ESP,
+  author = {Alexander Freytag and Erik Rodner and Trevor Darrell and Joachim
+	Denzler},
+  title = {Exemplar-specific Patch Features for Fine-grained Recognition},
+  booktitle = {German Conference on Pattern Recognition (GCPR)},
+  year = {2014},
+  pages = {144--156},
+  abstract = {In this paper, we present a new approach for fine-grained recognition or subordinate categorization,
+   tasks where an algorithm needs to reliably differentiate between visually similar categories, e.g. different bird species.
+   While previous approaches aim at learning a single generic representation and models with increasing complexity,
+   we propose an orthogonal approach that learns patch representations specifically tailored to every single test exemplar.
+   Since we query a constant number of images similar to a given test image,
+   we obtain very compact features and avoid large-scale training with all classes and examples.
+   Our learned mid-level features are build on shape and color detectors estimated from discovered patches reflecting small highly discriminative structures in the queried images.
+   We evaluate our approach for fine-grained recognition on the CUB-2011 birds dataset and show that high recognition rates can be obtained by model combination.},
+  groups = {featurelearning,finegrained,lifelonglearning},
+  code = {https://github.com/cvjena/patchDiscovery}
+}
+
+@INPROCEEDINGS{Freytag14:BFF,
+  author = {Alexander Freytag and Erik Rodner and Joachim Denzler},
+  title = {Birds of a Feather Flock Together - Local Learning of Mid-level Representations
+	for Fine-grained Recognition},
+  booktitle = {ECCV Workshop on Parts and Attributes (ECCV-WS)},
+  year = {2014},
+  code = {https://github.com/cvjena/patchDiscovery},
+  groups = {featurelearning,finegrained,lifelonglearning},
+  url = {https://filebox.ece.vt.edu/~parikh/PnA2014/}
+}
+
+@INPROCEEDINGS{Freytag14_SIE,
+  author = {Alexander Freytag and Erik Rodner and Joachim Denzler},
+  title = {Selecting Influential Examples: Active Learning with Expected Model
+	Output Changes},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2014},
+  volume = {8692},
+  series = {Lecture Notes in Computer Science},
+  pages = {562--577},
+  abstract = {In this paper, we introduce a new general strategy for active learning.
+The key idea of our approach is to measure the expected change of model outputs, a concept
+that generalizes previous methods based on expected model change and incorporates the underlying data distribution.
+For each example of an unlabeled set, the expected change of model predictions
+is calculated and marginalized over the unknown label. This results in a score for each unlabeled example
+that can be used for active learning with a broad range of models and learning algorithms.
+In particular, we show how to derive very efficient active learning methods for Gaussian process regression, which
+implement this general strategy, and link them to previous methods.
+We analyze our algorithms and compare them to a broad range of previous active learning strategies in experiments showing that
+they outperform state-of-the-art on well-established benchmark datasets in the area of visual object recognition.},
+  groups = {activelearning,gaussianprocesses,lifelonglearning}
+}
+
+@INPROCEEDINGS{Goehring14:ITR,
+  author = {Daniel G{\"o}hring and Judy Hoffman and Erik Rodner and Kate Saenko
+	and Trevor Darrell},
+  title = {Interactive Adaptation of Real-Time Object Detectors},
+  booktitle = {International Conference on Robotics and Automation (ICRA)},
+  year = {2014},
+  pages = {1282--1289},
+  publisher = {IEEE},
+  abstract = {In the following paper, we present a framework for quickly training
+	2D object detectors for robotic perception. Our method can be used
+	by robotics practitioners to quickly (under 30 seconds per object)
+	build a large-scale real-time perception system. In particular, we
+	show how to create new detectors on the fly using large-scale internet
+	image databases, thus allowing a user to choose among thousands of
+	available categories to build a detection system suitable for the
+	particular robotic application. Furthermore, we show how to adapt
+	these models to the current environment with just a few in-situ images.
+	Experiments on existing 2D benchmarks evaluate the speed, accuracy,
+	and flexibility of our system.},
+  url = {http://raptor.berkeleyvision.org/},
+  groups = {adaptivelearning,sceneunderstanding,lifelonglearning}
+}
+
+@ARTICLE{Goering13:FGC,
+  author = {Christoph G{\"o}ring and Alexander Freytag and Erik Rodner and Joachim
+	Denzler},
+  title = {Fine-grained Categorization - Short Summary of our Entry for the
+	ImageNet Challenge 2012},
+  journal = {arXiv preprint arXiv:1310.4759},
+  year = {2013},
+
+  groups = {finegrained},
+  url = {http://arxiv.org/abs/1310.4759}
+}
+
+@INPROCEEDINGS{Guadarrama14:OOR,
+  author = {Sergio Guadarrama and Erik Rodner and Kate Saenko and Ning Zhang
+	and Ryan Farrell and Jeff Donahue and Trevor Darrell},
+  title = {Open-vocabulary Object Retrieval},
+  booktitle = {Robotics Science and Systems (RSS)},
+  year = {2014},
+  abstract = {In this paper, we address the problem of retrieving objects based
+	on open-vocabulary natural language queries: Given a phrase describing
+	a specific object, e.g., the corn flakes box, the task is to find
+	the best match in a set of images containing candidate objects. When
+	naming objects, humans tend to use natural language with rich semantics,
+	including basic-level categories, fine-grained categories, and instance-level
+	concepts such as brand names. Existing approaches to large-scale
+	object recognition fail in this scenario, as they expect queries
+	that map directly to a fixed set of pre-trained visual categories,
+	e.g. ImageNet synset tags. We address this limitation by introducing
+	a novel object retrieval method. Given a candidate object image,
+	we first map it to a set of words that are likely to describe it,
+	using several learned image-to-text projections. We also propose
+	a method for handling open-vocabularies, i.e., words not contained
+	in the training data. We then compare the natural language query
+	to the sets of words predicted for each candidate and select the
+	best match. Our method can combine category- and instance-level semantics
+	in a common representation. We present extensive experimental results
+	on several datasets using both instance-level and category-level
+	matching and show that our approach can accurately retrieve objects
+	based on extremely varied open-vocabulary queries. The source code
+	of our approach will be publicly available together with pre-trained
+	models and could be directly used for robotics applications.},
+  pages = {41, ISBN 978-0-9923747-0-9},
+  note = {Awarded with an AAAI invited talk},
+  url = {http://openvoc.berkeleyvision.org},
+  groups = {deeplearning,lifelonglearning,imageandtext,retrieval}
+}
+
+@INPROCEEDINGS{Haase14:ITL,
+  author = {Daniel Haase and Erik Rodner and Joachim Denzler},
+  title = {Instance-weighted Transfer Learning of Active Appearance Models},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2014},
+  pages = {1426--1433},
+  abstract = {There has been a lot of work on face modeling, analysis, and landmark
+	detection, with Active Appearance Models being one of the most successful
+	techniques. A major drawback of these models is the large number
+	of detailed annotated training examples needed for learning. Therefore,
+	we present a transfer learning method that is able to learn from
+	related training data using an instance-weighted transfer technique.
+	Our method is derived using a generalization of importance sampling
+	and in contrast to previous work we explicitly try to tackle the
+	transfer already during learning instead of adapting the fitting
+	process. In our studied application of face landmark detection, we
+	efficiently transfer facial expressions from other human individuals
+	and are thus able to learn a precise face Active Appearance Model
+	only from neutral faces of a single individual. Our approach is evaluated
+	on two common face datasets and outperforms previous transfer methods.},
+
+  groups = {adaptivelearning,faces}
+}
+
+@INPROCEEDINGS{Hoffman13:ELD,
+  author = {Judy Hoffman and Erik Rodner and Jeff Donahue and Trevor Darrell
+	and Kate Saenko},
+  title = {Efficient Learning of Domain-invariant Image Representations},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2013},
+  groups = {adaptivelearning,lifelonglearning,mmdt},
+
+}
+
+@ARTICLE{Hoffman14:ACI,
+  author = {Judy Hoffman and Erik Rodner and Jeff Donahue and Brian Kulis and
+	Kate Saenko},
+  title = {Asymmetric and Category Invariant Feature Transformations for Domain
+	Adaptation},
+  journal = {International Journal of Computer Vision (IJCV)},
+  year = {2014},
+  volume = {109},
+  pages = {28-41},
+  number = {1-2},
+  abstract = {We address the problem of visual domain adaptation for transferring
+	object models from one dataset or visual domain to another. We introduce
+	a unified flexible model for both supervised and semi-supervised
+	learning that allows us to learn transformations between domains.
+	Additionally, we present two instantiations of the model, one for
+	general feature adaptation/alignment, and one specifically designed
+	for classification. First, we show how to extend metric learning
+	methods for domain adaptation, allowing for learning metrics independent
+	of the domain shift and the final classifier used. Furthermore, we
+	go beyond classical metric learning by extending the method to asymmetric,
+	category independent transformations. Our framework can adapt features
+	even when the target domain does not have any labeled examples for
+	some categories, and when the target and source features have different
+	dimensions. Finally, we develop a joint learning framework for adaptive
+	classifiers, which outperforms competing methods in terms of multi-class
+	accuracy and scalability. We demonstrate the ability of our approach
+	to adapt object recognition models under a variety of situations,
+	such as differing imaging conditions, feature types, and codebooks.
+	The experiments show its strong performance compared to previous
+	approaches and its applicability to large-scale scenarios.},
+  doi = {10.1007/s11263-014-0719-3},
+  issn = {0920-5691},
+  publisher = {Springer},
+  groups = {adaptivelearning,lifelonglearning,mmdt},
+  url = {http://link.springer.com/article/10.1007/s11263-014-0719-3}
+}
+
+@INPROCEEDINGS{Jiang12:MTB,
+  author = {Xiaoyan Jiang and Erik Rodner and Joachim Denzler},
+  title = {Multi-Person Tracking-by-Detection based on Calibrated Multi-Camera
+	Systems},
+  booktitle = {International Conference on Computer Vision and Graphics},
+  year = {2012},
+  volume = {Volume 7594/2012},
+  pages = {743-751},
+  organization = {Warsaw, Poland},
+  groups = {tracking},
+
+}
+
+@ARTICLE{Kaehler08:OFO,
+  author = {Olaf K{\"a}hler and Erik Rodner and Joachim Denzler},
+  title = {On Fusion of Range and Intensity Information Using Graph-Cut for
+	Planar Patch Segmentation},
+  journal = {International Journal of Intelligent Systems Technologies and Applications},
+  year = {2008},
+  volume = {5},
+  pages = {365-373},
+  number = {3/4},
+  abstract = {Planar patch detection aims at simplifying data from 3-D imaging sensors
+	to a more compact scene description. We propose a fusion of intensity
+	and depth information using Graph-Cut methods for this problem. Different
+	known algorithms are additionally evaluated on lowresolution high-framerate
+	image sequences and used as an initialization for the Graph-Cut approach.
+	In experiments we show a significant improvement of the detected
+	patch boundaries after the refinement with our method.},
+  dateadded = {2008-11-07},
+  groups = {planedetect,3dreconstruction},
+  keywords = {graph cut; planar patches; segmentation},
+
+}
+
+@INPROCEEDINGS{Kaehler07:OFO,
+  author = {Olaf K{\"a}hler and Erik Rodner and Joachim Denzler},
+  title = {On Fusion of Range and Intensity Information Using Graph-Cut for
+	Planar Patch Segmentation},
+  booktitle = {Proceedings Dynamic 3D Imaging Workshop},
+  year = {2007},
+  pages = {113-121},
+  month = {September},
+  note = {also appeared in International Journal of Intelligent Systems Technologies
+	and Applications, Vol. 5, No. 3/4, pp.365-373},
+  abstract = {Planar patch detection aims at simplifying data from 3-D imaging sensors
+	to a more compact scene description. We propose a fusion of intensity
+	and depth information using Graph-Cut methods for this problem. Different
+	known algorithms are additionally evaluated on lowresolution high-framerate
+	image sequences and used as an initialization for the Graph-Cut approach.
+	In experiments we show a significant improvement of the detected
+	patch boundaries after the refinement with our method.},
+  groups = {planedetect,3dreconstruction},
+  keywords = {planar patches; segmentation; graph cut},
+
+}
+
+@INPROCEEDINGS{Kemmler11:DOM,
+  author = {Michael Kemmler and Bj{\"o}rn Fr{\"o}hlich and Erik Rodner and Joachim
+	Denzler},
+  title = {Detection of Microorganisms in Complex Microscopy Images},
+  booktitle = {Open German-Russian Workshop on Pattern Recognition
+	and Image Understanding (OGRW)},
+  year = {2011},
+  pages = {115--118},
+  groups = {semanticsegmentation,biomed},
+
+}
+
+@ARTICLE{Kemmler13:SMC,
+  author = {Michael Kemmler and Bj\"orn Fr\"ohlich and Erik Rodner and Joachim
+	Denzler},
+  title = {Segmentation of Microorganism in Complex Environments},
+  journal = {Pattern Recognition and Image Analysis. Advances in Mathematical
+	Theory and Applications (PRIA)},
+  year = {2013},
+  volume = {23},
+  pages = {512--517},
+  number = {4},
+  issn = {1054-6618},
+  groups = {semanticsegmentation,biomed},
+
+
+}
+
+@INPROCEEDINGS{Kemmler09:GCE,
+  author = {Michael Kemmler and Erik Rodner and Joachim Denzler},
+  title = {Global Context Extraction for Object Recognition Using a Combination
+	of Range and Visual Features},
+  booktitle = {Dynamic 3D Imaging Workshop},
+  year = {2009},
+  editor = {R. Koch and A. Kolb},
+  volume = {5742},
+  series = {Lecture Notes in Computer Science},
+  pages = {96--109},
+  publisher = {Springer},
+  groups = {sceneunderstanding,tofcamera},
+
+}
+
+@INPROCEEDINGS{Kemmler10:OCC,
+  author = {Michael Kemmler and Erik Rodner and Joachim Denzler},
+  title = {One-Class Classification with Gaussian Processes},
+  booktitle = {Asian Conference on Computer Vision (ACCV)},
+  year = {2010},
+  pages = {489--500},
+  groups = {noveltydetection,gaussianprocesses,lifelonglearning},
+  keywords = {OCC_IL_TL},
+
+}
+
+@ARTICLE{Kemmler13:AIN,
+  author = {Michael Kemmler and Erik Rodner and Petra R\"osch and J\"urgen Popp
+	and Joachim Denzler},
+  title = {Automatic Identification of Novel Bacteria using Raman Spectroscopy
+	and Gaussian Processes},
+  journal = {Analytica Chimica Acta},
+  year = {2013},
+  volume = {794},
+  pages = {29-37},
+  groups = {noveltydetection,biomed},
+  keywords = {OCC_IL_TL},
+  url = {http://www.ncbi.nlm.nih.gov/pubmed/23972972}
+}
+
+@ARTICLE{Kemmler13:OCG,
+  author = {Michael Kemmler and Erik Rodner and Esther-Sabrina Wacker and Joachim Denzler},
+  title = {One-class Classification with Gaussian Processes},
+  journal = {Pattern Recognition},
+  year = {2013},
+  volume = {46},
+  pages = {3507--3518},
+  doi = {10.1016/j.patcog.2013.06.005},
+  issue = {12},
+  groups = {noveltydetection,biomed,lifelonglearning},
+}
+
+@ARTICLE{Luetz13:IWT,
+  author = {Alexander L{\"u}tz and Erik Rodner and Joachim Denzler},
+  title = {I Want To Know More: Efficient Multi-Class Incremental Learning Using
+	Gaussian Processes},
+  journal = {Pattern Recognition and Image Analysis. Advances in Mathematical
+	Theory and Applications (PRIA)},
+  year = {2013},
+  volume = {23},
+  pages = {402--407},
+  number = {3},
+  groups = {gaussianprocesses,lifelonglearning,incrementallearning},
+  keywords = {gaussian processes, incremental learning},
+
+}
+
+@INPROCEEDINGS{Luetz11:EIL,
+  author = {Alexander L{\"u}tz and Erik Rodner and Joachim Denzler},
+  title = {Efficient Multi-Class Incremental Learning Using Gaussian Processes},
+  booktitle = {Open German-Russian Workshop on Pattern Recognition and Image Understanding
+	(OGRW)},
+  year = {2011},
+  pages = {182--185},
+  abstract = {One of the main assumptions in machine learning is that sufficient
+	training data is available in advance and batch learning can be applied.
+	However, because of the dynamics in a lot of applications, this assumption
+	will break down in almost all cases over time. Therefore, classifiers
+	have to be able to adapt themselves when new training data from existing
+	or new classes becomes available, training data is changed or should
+	be even removed. In this paper, we present a method allowing efficient
+	incremental learning of a Gaussian process classifier. Experimental
+	results show the benefits in terms of needed computation times compared
+	to building the classifier from the scratch.},
+  keywords = {OCC_IL_TL},
+  groups = {gaussianprocesses,lifelonglearning,incrementallearning},
+
+  website = {http://www.inf-cv.uni-jena.de/incremental_learning.html}
+}
+
+@INPROCEEDINGS{Ruehle15:BYC,
+  author = {Johannes R{\"u}hle and Erik Rodner and Joachim Denzler},
+  title = {Beyond Thinking in Common Categories: Predicting Obstacle Vulnerability using Large Random Codebooks},
+  booktitle = {Machine Vision Applications (MVA)},
+  year = {2015},
+  groups = {industrial},
+  pages = {198-201},
+  url = {http://www.mva-org.jp/mva2015/FinalProgram_20150423_clean.pdf},
+  owner = {Ruehle},
+  abstract = {Obstacle detection for advanced driver assistance systems has focused on building detectors for only a few number of categories so far, such as pedestrians and cars.
+However, vulnerable obstacles of other categories are often dismissed, such as wheel-chairs and baby strollers. In our work, we try to tackle this limitation by presenting an approach which is able to predict the vulnerability of an arbitrary obstacle independently from its category. This allows for using models not specifically tuned for category recognition. To classify the vulnerability, we apply a generic category-free approach based on large random bag-of-visual-words representations (BoW), where
+we make use of both the intensity image as well as a given disparity map.
+In experimental results, we achieve a classification accuracy of over 80% for predicting one of four vulnerability levels for each of the 10000 obstacle hypotheses detected in a challenging dataset of real urban street scenes. Vulnerability prediction in general and our working algorithm in particular, pave the way to more advanced reasoning in autonomous driving, emergency route planning,
+as well as reducing the false-positive rate of obstacle warning systems.}
+}
+
+@INPROCEEDINGS{Rodner12:LWB,
+  author = {Erik Rodner},
+  title = {Lernen mit wenigen Beispielen f{\"u}r die visuelle Objekterkennung},
+  booktitle = {Ausgezeichnete Informatikdissertationen 2011},
+  year = {2012},
+  volume = {D-12},
+  series = {Lecture Notes in Informatics (LNI)},
+  publisher = {Springer},
+  note = {in german},
+  groups = {gaussianprocesses,lifelonglearning,noveltydetection,adaptivelearning},
+
+  url = {http://www.gi.de/service/publikationen/lni/mehr-zur-schriftenreihe/dissertations/gi-edition-lecture-notes-in-informatics-lni-d-12.html}
+}
+
+@BOOK{Rodner11:Diss,
+  title = {Learning from Few Examples for Visual Recognition Problems},
+  publisher = {Hut Verlag M{\"u}nchen},
+  year = {2011},
+  author = {Erik Rodner},
+  dateadded = {2012-03-22},
+  groups = {gaussianprocesses,lifelonglearning,noveltydetection,adaptivelearning},
+
+  isbn = {978-3-8439-0249-6},
+  url = {http://www.dr.hut-verlag.de/978-3-8439-0249-6.html}
+}
+
+@INPROCEEDINGS{Rodner09:RPL,
+  author = {Erik Rodner and Joachim Denzler},
+  title = {Randomized Probabilistic Latent Semantic Analysis for Scene Recognition},
+  booktitle = {Iberoamerican Congress on Pattern Recognition
+	(CIARP)},
+  year = {2009},
+  editor = {Eduardo Bayro-Corrochano and Jan Olof Eklundh},
+  number = {5856},
+  series = {LNCS},
+  pages = {945--953},
+  publisher = {Springer},
+  groups = {scenerecognition,topicmodels},
+
+}
+
+@INPROCEEDINGS{Rodner09:LFE,
+  author = {Erik Rodner and Joachim Denzler},
+  title = {Learning with Few Examples by Transferring Feature Relevance},
+  booktitle = {Annual Symposium of the German Association
+	for Pattern Recognition (DAGM)},
+  year = {2009},
+  editor = {Joachim Denzler and Gunther Notni and Herbert S{\"u}sse},
+  volume = {5748},
+  series = {Lecture Notes in Computer Science},
+  pages = {252--261},
+  organization = {DAGM},
+  publisher = {Springer},
+  groups = {lifelonglearning,adaptivelearning},
+  keywords = {OCC_IL_TL},
+
+  website = {http://www.springerlink.com/content/836h8ql557406n82/}
+}
+
+@INPROCEEDINGS{Rodner08:LFE,
+  author = {Erik Rodner and Joachim Denzler},
+  title = {Learning with Few Examples using a Constrained Gaussian Prior on
+	Randomized Trees},
+  booktitle = {Vision, Modelling, and Visualization Workshop (VMV)},
+  year = {2008},
+  editor = {Oliver Deussen and Daniel Keim and Dietmar Saupe},
+  pages = {159-168},
+  address = {Konstanz},
+  month = {10},
+  groups = {lifelonglearning,adaptivelearning},
+  keywords = {OCC_IL_TL},
+
+}
+
+@ARTICLE{Rodner11:LFE,
+  author = {Erik Rodner and Joachim Denzler},
+  title = {Learning with Few Examples for Binary and Multiclass Classification
+	Using Regularization of Randomized Trees},
+  journal = {Pattern Recognition Letters},
+  year = {2011},
+  volume = {32},
+  pages = {244--251},
+  number = {2},
+  month = {January},
+  keywords = {transfer learning, randomized decision trees, OCC_IL_TL},
+  groups = {lifelonglearning,adaptivelearning},
+
+  website = {dx.doi.org/10.1016/j.patrec.2010.08.009}
+}
+
+@INPROCEEDINGS{Rodner10:OSL,
+  author = {Erik Rodner and Joachim Denzler},
+  title = {One-Shot Learning of Object Categories using Dependent Gaussian Processes},
+  booktitle = {Annual Symposium of the German Association
+	for Pattern Recognition (DAGM)},
+  year = {2010},
+  pages = {232--241},
+  publisher = {Springer},
+  groups = {lifelonglearning,adaptivelearning,gaussianprocesses},
+  keywords = {OCC_IL_TL},
+
+}
+
+@INPROCEEDINGS{Rodner12:LGP,
+  author = {Erik Rodner and Alexander Freytag and Paul Bodesheim and Joachim
+	Denzler},
+  title = {Large-Scale Gaussian Process Classification with Flexible Adaptive
+	Histogram Kernels},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2012},
+  volume = {4},
+  pages = {85--98},
+  keywords = {gaussian processes, histogram intersection kernels, large-scale classification},
+  groups = {largescale,gaussianprocesses},
+
+}
+
+@INPROCEEDINGS{Rodner10:MKG,
+  author = {Erik Rodner and Doaa Hegazy and Joachim Denzler},
+  title = {Multiple Kernel Gaussian Process Classification for Generic 3D Object
+	Recognition From Time-of-Flight Images},
+  booktitle = {International Conference on Image and Vision Computing},
+  year = {2010},
+  pages = {1-8},
+
+  groups = {visualrecognition,gaussianprocesses},
+  url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6148815}
+}
+
+@INPROCEEDINGS{Rodner13:STDa,
+  author = {Erik Rodner and Judy Hoffman and Jeff Donahue and Trevor Darrell
+	and Kate Saenko},
+  title = {Scalable Transform-based Domain Adaptation},
+  booktitle = {ICCV Workshop on Visual Domain Adaptation (ICCV-WS)},
+  year = {2013},
+  groups = {adaptivelearning,lifelonglearning,mmdt},
+  dateadded = {2013-11-15},
+
+}
+
+@ARTICLE{Rodner13:TAI,
+  author = {Erik Rodner and Judy Hoffman and Jeff Donahue and Trevor Darrell
+	and Kate Saenko},
+  title = {Towards Adapting ImageNet to Reality: Scalable Domain Adaptation
+	with Implicit Low-rank Transformations},
+  journal = {arXiv preprint arXiv:1308.4200},
+  groups = {adaptivelearning,lifelonglearning,mmdt},
+  year = {2013},
+
+}
+
+@InProceedings{Rodner13:TBD,
+  author    = {Erik Rodner and Judy Hoffman and Jeff Donahue and Trevor Darrell and Kate Saenko},
+  booktitle = {NIPS Workshop on New Directions in Transfer and Multi-Task Learning (NIPS-WS)},
+  title     = {Transform-based Domain Adaptation for Big Data},
+  year      = {2013},
+  note      = {abstract version of arXiv:1308.4200},
+  abstract  = {Images seen during test time are often not from the same distribution
+	as images used for learning. This problem, known as domain shift,
+	occurs when training classifiers from object-centric internet image
+	databases and trying to apply them directly to scene understanding
+	tasks. The consequence is often severe performance degradation and
+	is one of the major barriers for the application of classi- fiers
+	in real-world systems. In this paper, we show how to learn transform-based
+	domain adaptation classifiers in a scalable manner. The key idea
+	is to exploit an implicit rank constraint, originated from a max-margin
+	domain adaptation formulation, to make optimization tractable. Experiments
+	show that the transformation between domains can be very efficiently
+	learned from data and easily applied to new categories},
+  dateadded = {2013-11-22},
+  groups    = {adaptivelearning,lifelonglearning,mmdt},
+}
+
+@INPROCEEDINGS{Rodner08:DBF,
+  author = {Erik Rodner and Herbert S{\"u}{\ss}e and Wolfgang Ortmann and Joachim
+	Denzler},
+  title = {Difference of Boxes Filters Revisited: Shadow Suppression and Efficient
+	Character Segmentation},
+  booktitle = {IAPR Workshop on Document Analysis Systems},
+  year = {2008},
+  pages = {263-269},
+  address = {Nara, Japan},
+  month = {9},
+  publisher = {IEEE},
+  abstract = {A robust segmentation is the most important part of an automatic character
+	recognition system (e.g. document pro- cessing, license plate recognition
+	etc.). In our contribution we present an efficient segmentation framework
+	using a pre- processing step for shadow suppression combined with
+	a local thresholding technique. The method is based on a combination
+	of difference of boxes filters and a new ternary segmentation, which
+	are both simple low-level image oper- ations. We also draw parallels
+	to a recently published work on a ganglion cell model and show that
+	our approach is theoret- ically more substantiated as well as more
+	robust and more efficient in practice. Systematic evaluation of noisy
+	input data as well as results on a large dataset of license plate
+	images 1 show the robustness and efficiency of our proposed method.
+	Our results can be applied easily to any optical char- acter recognition
+	system resulting in an impressive gain of robustness against nonlinear
+	illumination.},
+
+  groups = {segmentation,industrialproject},
+  website = {http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?isnumber=4669930&arnumber=4669969&count=93&index=38}
+}
+
+@INPROCEEDINGS{Rodner11:OCA,
+  author = {Erik Rodner and Esther-Sabrina Wacker and Michael Kemmler and Joachim
+	Denzler},
+  title = {One-Class Classification for Anomaly Detection in Wire Ropes with
+	Gaussian Processes in a Few Lines of Code},
+  booktitle = {Machine Vision Applications (MVA)},
+  year = {2011},
+  pages = {219--222},
+  groups = {anomaly detection,visual rope inspection,gaussianprocesses,novelty detection,,industrialproject},
+
+}
+
+@BOOK{Suesse14:BV,
+  title = {Bildverarbeitung und Objekterkennung: Computer Vision in Industrie
+	und Medizin},
+  publisher = {Springer-Vieweg},
+  year = {2014},
+  author = {Herbert S{\"u}{\ss}e and Erik Rodner},
+  note = {Neues umfangreiches Lehrbuch im Bereich Bildverarbeitung und maschinelles
+	Lernen},
+  abstract = {Dieses Buch erlaeutert, wie Informationen automatisch aus Bildern
+	extrahiert werden. Mit dieser sehr aktuellen Frage beschaeftigt sich
+	das Buch mittels eines Streifzuges durch die Bildverarbeitung. Dabei
+	werden sowohl die mathematischen Grundlagen vieler Verfahren der
+	2D- und 3D Bildanalyse vermittelt als auch deren Nutzen anhand von
+	Problemstellungen aus vielen Bereichen (Medizin, industrielle Bildverarbeitung,
+	Objekterkennung) erlaeutert. Das Buch eignet sich sowohl fuer Studierende
+	der Informatik, Mathematik und Ingenieurwissenschaften als auch fuer
+	Anwender aus der industriellen Bildverarbeitung.},
+  isbn = {978-3-8348-2606-0},
+  groups = {biomed},
+  url = {http://www.dbvbuch.de}
+}
+
+@INPROCEEDINGS{Sickert14:SVS,
+  author = {Sven Sickert and Erik Rodner and Joachim Denzler},
+  title = {Semantic Volume Segmentation with Iterative Context Integration},
+  booktitle = {Open German-Russian Workshop on Pattern Recognition and Image Understanding
+	(OGRW)},
+  year = {2014},
+  pages = {220--225},
+  groups = {semanticsegmentation,biomed},
+  abstract = {Automatic recognition of biological structures like membranes or synapses
+	is important to analyze organic processes and to understand their
+	functional behavior. To achieve this, volumetric images taken by
+	electron microscopy or computed tomography have to be segmented into
+	meaningful regions. We are extending iterative context forests which
+	were developed for 2D image data for image stack segmentation. In
+	particular, our method s able to learn high order dependencies and
+	import contextual information, which often can not be learned by
+	conventional Markov random field approaches usually used for this
+	task. Our method is tested for very different and challenging medical
+	and biological segmentation tasks.},
+  editor = {Dietrich Paulus and Christian Fuchs and Detlev Droege},
+  month = {12},
+  publisher = {University of Koblenz-Landau},
+  address = {Koblenz},
+  url = {http://nbn-resolving.de/urn:nbn:de:hbz:kob7-2015051206},
+  shorttitle = {OGRW 2014},
+}
+
+@ARTICLE{Sickert16:SVS,
+  author = {Sven Sickert and Erik Rodner and Joachim Denzler},
+  title = {Semantic Volume Segmentation with Iterative Context Integration for Bio-medical Image Stacks},
+  journal = {Pattern Recognition and Image Analysis. Advances in Mathematical
+	Theory and Applications (PRIA)},
+  year = {2016},
+  volume = {26},
+  number = {1},
+  pages = {197--204},
+  abstract = {Automatic recognition of biological structures like membranes or synapses
+	is important to analyze organic processes and to understand their
+	functional behavior. To achieve this, volumetric images taken by
+	electron microscopy or computer tomography have to be segmented into
+	meaningful semantic regions. We are extending iterative context forests
+	which were developed for 2D image data to image stack segmentation.
+	In particular, our method is able to learn high-order dependencies and
+	import contextual information, which often can not be learned by conventional
+	Markov random field approaches usually used for this task. Our method is
+	tested on very different and challenging medical and biological segmentation
+	tasks.},
+}
+
+@INPROCEEDINGS{Simon15:FCI,
+  author = {Marcel Simon and Erik Rodner and Joachim Denzler},
+  title = {Fine-grained Classification of Identity Document Types with Only One Example},
+  booktitle = {Machine Vision Applications (MVA)},
+  year = {2015},
+  groups = {industrial,finegrained},
+  url = {http://www.mva-org.jp/mva2015/FinalProgram_20150423_clean.pdf},
+  pages = {126 -- 129},
+  abstract = {This paper shows how to recognize types of identity documents, such as passports, using state-of-the-art visual recognition approaches. Whereas recognizing individual parts on identity documents with a standardized layout is one of the old classics in computer vision, recognizing the type of the document and therefore also the layout is a challenging problem due to the large variation of the documents.
+    In our paper, we evaluate different techniques for this application including feature representations based on recent achievements with convolutional neural networks.}
+}
+
+@INPROCEEDINGS{Simon14:PDD,
+  author = {Marcel Simon and Erik Rodner and Joachim Denzler},
+  title = {Part Detector Discovery in Deep Convolutional Neural Networks},
+  booktitle = {Asian Conference on Computer Vision (ACCV)},
+  year = {2014},
+  groups = {finegrained,deeplearning,adaptivelearning},
+  volume = {2},
+  pages = {162--177},
+  code = {https://github.com/cvjena/PartDetectorDisovery},
+  abstract = {Current fine-grained classification approaches often rely
+	on a robust localization of object parts to extract
+	localized feature representations suitable for discrimination.
+	However, part localization is a
+	challenging task due to the large variation of appearance and pose.
+	In this paper, we show how pre-trained convolutional neural networks
+	can be used for robust and efficient object part discovery and localization without the
+	necessity to actually train the network on the current dataset. Our approach called
+	part detector discovery  (PDD)
+	is based on analyzing the gradient maps of the network outputs and finding
+	activation centers spatially related to annotated semantic parts or bounding boxes.
+
+	This allows us not just to obtain excellent performance on the CUB200-2011 dataset,
+	but in contrast to previous approaches also to perform detection and bird classification jointly
+	without requiring a given bounding box annotation during testing and ground-truth parts during training.}
+}
+
+@INPROCEEDINGS{Simon14:PLE,
+  author = {Marcel Simon and Erik Rodner and Joachim Denzler},
+  title = {Part Localization by Exploiting Deep Convolutional Networks},
+  booktitle = {ECCV Workshop on Parts and Attributes (ECCV-WS)},
+  year = {2014},
+  groups = {finegrained,deeplearning,adaptivelearning},
+  url = {https://filebox.ece.vt.edu/~parikh/PnA2014/}
+}
+
+@INPROCEEDINGS{Goering14:NPT,
+  author = {Christoph G{\"o}ring and Erik Rodner and Alexander Freytag and Joachim
+	Denzler},
+  title = {Nonparametric Part Transfer for Fine-grained Recognition},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2014},
+  code = {https://github.com/cvjena/finegrained-cvpr2014},
+  url = {http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Goring_Nonparametric_Part_Transfer_2014_CVPR_paper.pdf},
+  owner = {freytag},
+  timestamp = {2014.03.05},
+lastName = {G{\"o}ring},
+  groups = {finegrained},
+  abstract = {In the following paper, we present an approach for fine-grained recognition based on a new part detection method.
+In particular, we propose a nonparametric label transfer technique which transfers part constellations from objects with similar global shapes.
+The possibility for transferring part annotations to unseen images allows for coping with a high degree of pose and view variations in scenarios where
+traditional detection models (such as deformable part models) fail.
+Our approach is especially  valuable for fine-grained recognition scenarios where intraclass variations are extremely high, and
+precisely localized features need to be extracted.
+Furthermore, we show the importance of carefully designed visual extraction strategies, such as combination of complementary feature types and
+iterative image segmentation, and the resulting impact on the recognition performance.
+In experiments, our simple yet powerful approach achieves 35.9% and 57.8% accuracy on the CUB-2010 and 2011 bird datasets,
+which is the current best performance for these benchmarks.},
+  pages = {2489--2496}
+}
+
+@article{Barz17_FLP,
+    title={Fast Learning and Prediction for Object Detection using Whitened CNN Features},
+    author={Bj{\"o}rn Barz and Erik Rodner and Christoph K{\"a}ding and Joachim Denzler},
+    journal={arXiv preprint arXiv:1704.02930},
+    url={https://arxiv.org/abs/1704.02930},
+    year={2017}
+}
+
+@InProceedings{Kaeding18_ALR,
+  author    = {Christoph K{\"a}ding and Erik Rodner and Alexander Freytag and Oliver Mothes and Bj{\"o}rn Barz and Joachim Denzler},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  title     = {Active Learning for Regression Tasks with Expected Model Output Changes},
+  year      = {2018},
+  abstract  = {Annotated training data is the enabler for supervised learning.
+While recording data at large scale is possible in some application domains,
+collecting reliable annotations is time-consuming, costly, and often a project's bottleneck.
+Active learning aims at reducing the annotation effort.
+While this field has been studied extensively for classification tasks, it has received less attention for regression problems
+although the annotation cost is often even higher.
+We aim at closing this gap and propose an active learning approach to enable regression applications.
+
+To address continuous outputs, we build on Gaussian process models -- an established tool to tackle even non-linear regression problems.
+For active learning, we extend the expected model output change (EMOC) framework to continuous label spaces and show that the involved marginalizations can be solved in closed-form.
+This mitigates one of the major drawbacks of the EMOC principle.
+We empirically analyze our approach in a variety of application scenarios.
+In summary, we observe that our approach can efficiently guide the annotation process and leads to better models in shorter time and at lower costs.},
+  code      = {http://triton.inf-cv.uni-jena.de/LifelongLearning/gpEMOCreg},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
