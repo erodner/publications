@@ -5,7 +5,8 @@
 	booktitle = {Fourth World Conference on eXplainable Artificial Intelligence (XAI), Late-Breaking Work Track},
 	year = {2026},
 	pages = {1-8},
-	url = {https://arxiv.org/abs/2604.07019}
+	url = {https://arxiv.org/abs/2604.07019},
+	abstract = {Neural networks deliver impressive predictive performance across a variety of tasks, but they are often opaque in their decision-making processes. Despite a growing interest in mechanistic interpretability, tools for systematically exploring the representations learned by neural networks in general, and tabular foundation models in particular, remain limited. In this work, we introduce ConceptTracer, an interactive application for analyzing neural representations through the lens of human-interpretable concepts. ConceptTracer integrates two information-theoretic measures that quantify concept saliency and selectivity, enabling researchers and practitioners to identify neurons that respond strongly to individual concepts. We demonstrate the utility of ConceptTracer on representations learned by TabPFN and show that our approach facilitates the discovery of interpretable neurons. Together, these capabilities provide a practical framework for investigating how neural networks like TabPFN encode concept-level information. ConceptTracer is available at https://github.com/ml-lab-htw/concept-tracer.}
 }
 
 @article{Knauer2026Intuition,
@@ -17,7 +18,8 @@
 	volume = {8},
 	pages = {1-18},
 	doi = {10.3389/fdgth.2026.1789412},
-	url = {https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1789412/full}
+	url = {https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1789412/full},
+	abstract = {Musculoskeletal pain, especially low-back pain, is highly prevalent and often challenging to manage due to its multifactorial nature. Effective diagnosis and therapy require clinicians to integrate biopsychosocial information within an evidence-based clinical reasoning framework. Large language models that ``think'' before responding, so-called reasoning models, show promise to support such complex decision-making, yet their validity and reliability in this setting remain unclear. In our work, we present a comprehensive human evaluation of reasoning models for clinical reasoning. Our results indicate that state-of-the-art reasoning models demonstrate sufficient test-retest reliability and are competent or proficient in terms of their conceptual reasoning, completeness, correctness, relevance, and usefulness, with no statistically significant or clinically relevant differences between them. However, our qualitative analysis reveals weaknesses in logical coherence, patient-centeredness, empathy, and intuition, with most deviations from expert reasoning in the domain of intuition. Our findings underscore the importance of adopting a multidimensional framework for evaluating language model outputs and allow us to provide guidance for model selection and prompting strategies to enhance clinical reasoning performance.}
 }
 
 @article{Koddenbrock2026Microtubule,
@@ -28,7 +30,8 @@
 	year = {2026},
 	doi = {10.1371/journal.pcbi.1013901},
 	url = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013901},
-	code = {https://github.com/ml-lab-htw/SynthMT}
+	code = {https://github.com/ml-lab-htw/SynthMT},
+	abstract = {Studying microtubules (MTs) and their mechanical properties is central to understanding intracellular transport, cell division, and drug action. While important, experts still need to spend many hours manually segmenting these filamentous structures. The suitability of state-of-the-art methods for this task cannot be systematically assessed, as large-scale labeled datasets are missing. We address this gap by introducing the synthetic dataset SynthMT, produced by tuning a novel image generation pipeline on real-world interference reflection microscopy (IRM) frames of in vitro reconstituted MTs without requiring human annotations. In our benchmark, we evaluate nine fully automated methods for MT analysis in both zero- and Hyperparameter Optimization (HPO)-based few-shot settings. Across both settings, classical algorithms and current foundation models still struggle to achieve the accuracy required for biological downstream analysis on in vitro MT IRM images that humans perceive as visually simple. However, a notable exception is the recently introduced SAM3 model. After HPO on only ten random SynthMT images, its text-prompted version SAM3Text achieves near-perfect and in some cases super-human performance on unseen, real data. This indicates that fully automated MT segmentation has become feasible when method configuration is effectively guided by synthetic data. To enable progress, we publicly release the dataset, the generation pipeline, and the evaluation framework.}
 }
 
 @inproceedings{Schulze2026,
@@ -47,7 +50,8 @@
 	journal = {arXiv preprint arXiv:2605.02003},
 	note = {preprint},
 	year = {2026},
-	url = {https://arxiv.org/abs/2605.02003}
+	url = {https://arxiv.org/abs/2605.02003},
+	abstract = {Machine Learning (ML) has transformed many scientific fields, yet key applications still lack standardized benchmarks. Raman spectroscopy, a widely used technique for non-invasive molecular analysis, is one such field where progress is limited by fragmented datasets, inconsistent evaluation, and models that fail to capture the structure of spectral data. We introduce RamanBench, the first large-scale, fully reproducible benchmark for ML on Raman spectroscopy, consisting of streamlined data access, evaluation protocols and code, as well as a live leaderboard. It unifies 74 datasets (including 16 first released with this benchmark) across four domains, comprising 325,668 spectra and spanning classification and regression tasks under diverse experimental conditions. We benchmark 28 models under a standardized protocol, including classical methods (e.g., PLS), Raman-specific (e.g., RamanNet), Tabular Foundation Model (TFM) (e.g., TabPFN), and time-series approaches (e.g., ROCKET). TFM consistently outperform domain-specific and gradient boosting baselines, while time-series models remain competitive. However, no method generalizes across datasets, revealing a fundamental gap. Therefore, we invite the community to contribute new approaches to our living benchmark, with the potential to accelerate advances in critical applications such as medical diagnostics, biological research, and materials science.}
 }
 
 @article{Tenckhoff2026,
@@ -56,7 +60,8 @@
 	journal = {arXiv preprint arXiv:2602.14743},
 	note = {preprint},
 	year = {2026},
-	url = {https://arxiv.org/abs/2602.14743}
+	url = {https://arxiv.org/abs/2602.14743},
+	abstract = {We present LLMStructBench, a novel benchmark for evaluating Large Language Models (LLMs) on extracting structured data and generating valid JavaScript Object Notation (JSON) outputs from natural-language text. Our open dataset comprises diverse, manually verified parsing scenarios of varying complexity and enables systematic testing across 22 models and five prompting strategies. We further introduce complementary performance metrics that capture both token-level accuracy and document-level validity, facilitating rigorous comparison of model, size, and prompting effects on parsing reliability. In particular, we show that choosing the right prompting strategy is more important than standard attributes such as model size. This especially ensures structural validity for smaller or less reliable models but increases the number of semantic errors. Our benchmark suite is a step towards future research in the area of LLM applied to parsing or Extract, Transform and Load (ETL) applications.}
 }
 
 @inproceedings{Knauer2025Grandmother,
@@ -65,7 +70,8 @@
 	booktitle = {EurIPS 2025 Workshop on AI for Tabular Data},
 	year = {2025},
 	pages = {1-9},
-	url = {https://arxiv.org/abs/2601.03657}
+	url = {https://arxiv.org/abs/2601.03657},
+	abstract = {Foundation models are powerful yet often opaque in their decision-making. A topic of continued interest in both neuroscience and artificial intelligence is whether some neurons behave like grandmother cells, i.e., neurons that are inherently interpretable because they exclusively respond to single concepts. In this work, we propose two information-theoretic measures that quantify the neuronal saliency and selectivity for single concepts. We apply these metrics to the representations of TabPFN, a tabular foundation model, and perform a simple search across neuron-concept pairs to find the most salient and selective pair. Our analysis provides the first evidence that some neurons in such models show moderate, statistically significant saliency and selectivity for high-level concepts. These findings suggest that interpretable neurons can emerge naturally and that they can, in some cases, be identified without resorting to more complex interpretability techniques.}
 }
 
 @inproceedings{Kolomenko2025,
@@ -76,7 +82,8 @@
 	publisher = {KIT Scientific Publishing},
 	year = {2025},
 	pages = {103-120},
-	url = {https://arxiv.org/abs/2603.17737}
+	url = {https://arxiv.org/abs/2603.17737},
+	abstract = {Embeddings are a powerful way to enrich data-driven machine learning models with the world knowledge of large language models (LLMs). Yet, there is limited evidence on how to design effective LLM-based embedding pipelines for tabular prediction. In this work, we systematically benchmark 256 pipeline configurations, covering 8 preprocessing strategies, 16 embedding models, and 2 downstream models. Our results show that it strongly depends on the specific pipeline design whether incorporating the prior knowledge of LLMs improves the predictive performance. In general, concatenating embeddings tends to outperform replacing the original columns with embeddings. Larger embedding models tend to yield better results, while public leaderboard rankings and model popularity are poor performance indicators. Finally, gradient boosting decision trees tend to be strong downstream models. Our findings provide researchers and practitioners with guidance for building more effective embedding pipelines for tabular prediction tasks.}
 }
 
 @inproceedings{Koddenbrock2025,
@@ -89,7 +96,8 @@
 	pages = {62-76},
 	doi = {10.1007/978-3-032-02813-6_5},
 	url = {https://arxiv.org/abs/2506.23663},
-	code = {https://github.com/ml-lab-htw/deepbench}
+	code = {https://github.com/ml-lab-htw/deepbench},
+	abstract = {In real-world vision-language applications, practitioners increasingly rely on large, pretrained foundation models rather than custom-built solutions, despite limited transparency regarding their training data and processes. While these models achieve impressive performance on general benchmarks, their effectiveness can decline notably under specialized domain shifts, such as unique imaging conditions or environmental variations. In this work, we introduce Deepbench, a framework designed to assess domain-specific robustness of vision-language models (VLMs). Deepbench leverages a large language model (LLM) to generate realistic, context-aware image corruptions tailored to specific deployment domains without requiring labeled data. We evaluate a range of contrastive vision-language architectures and architectural variants across six real-world domains and observe substantial variability in robustness, highlighting the need for targeted, domain-aware evaluation. Deepbench is released as open-source software to support further research into domain-aware robustness assessment.}
 }
 
 @inproceedings{Westerhoff2025Scam,
@@ -98,7 +106,8 @@
 	booktitle = {CVPR 2025 Workshop on Evaluating Foundation Models (EVAL-FoMo-2)},
 	year = {2025},
 	pages = {1-22},
-	url = {https://arxiv.org/abs/2504.04893}
+	url = {https://arxiv.org/abs/2504.04893},
+	abstract = {Typographic attacks exploit the interplay between text and visual content in multimodal foundation models, causing misclassifications when misleading text is embedded within images. Existing datasets are limited in size and diversity, making it difficult to study such vulnerabilities. In this paper, we introduce SCAM, the largest and most diverse dataset of real-world typographic attack images to date, containing 1162 images across hundreds of object categories and attack words. Through extensive benchmarking of Vision-Language Models on SCAM, we demonstrate that typographic attacks significantly degrade performance, and identify that training data and model architecture influence the susceptibility to these attacks. Our findings indicate that typographic attacks remain effective against state-of-the-art Large Vision-Language Models, especially those employing vision encoders inherently vulnerable to such attacks. However, employing larger Large Language Model backbones reduces this vulnerability while simultaneously enhancing typographic understanding. Additionally, we demonstrate that synthetic attacks closely resemble real-world (handwritten) attacks, validating their use in research. Our work provides a comprehensive resource and empirical insights to facilitate future research toward robust and trustworthy multimodal AI systems. Finally, we publicly release the datasets introduced in this paper, along with the code for evaluations under http://www.bliss.berlin/research/scam.}
 }
 
 @article{Westerhoff2025RWI,
@@ -107,7 +116,8 @@
 	journal = {Transactions on Machine Learning Research (TMLR)},
 	year = {2025},
 	pages = {1-26},
-	url = {https://arxiv.org/abs/2503.14572}
+	url = {https://arxiv.org/abs/2503.14572},
+	abstract = {The capacity of foundation models allows for their application to new, unseen tasks. The adaptation to such tasks is called transfer learning. An efficient transfer learning method that circumvents parameter optimization is imprinting. The conceptual differences between studies on imprinting form the basis of our systematic investigation. In this work, we propose the general IMPRINT framework, identifying three main components: generation, normalization, and aggregation. Through the lens of this framework, we conduct an in-depth analysis and a comparison of the existing methods. Our findings reveal the benefits of representing novel data with multiple proxies in the generation step and show the importance of proper normalization. Beyond an extensive analytical grounding, our framework enables us to propose a novel variant of imprinting which outperforms previous work on transfer learning tasks by 4\%. This variant determines proxies through clustering motivated by the neural collapse phenomenon -- a connection that we draw for the first time. We publicly release our code at https://github.com/DATEXIS/IMPRINT.}
 }
 
 @article{Elsharkawi2025,
@@ -118,7 +128,8 @@
 	volume = {2},
 	pages = {1-16},
 	doi = {10.52825/th-wildau-ensp.v2i.2933},
-	url = {https://www.tib-op.org/ojs/index.php/th-wildau-ensp/article/view/2933}
+	url = {https://www.tib-op.org/ojs/index.php/th-wildau-ensp/article/view/2933},
+	abstract = {Due to the growing complexity of modern manufacturing, industrial process control systems generate vast amounts of data with significant potential for machine learning applications. While ML offers immense benefits, the lack of data science expertise poses challenges for adoption. AutoML frameworks tackle these barriers by automating key ML tasks, enhancing accessibility and efficiency. This study investigates their effectiveness in a ceramic industry use case, comparing preprocessing strategies and analyzing explainability with SHAP values validated by domain experts. The findings highlight AutoML's potential to streamline ML model development but also its reliance on domain expertise for effective feature selection and explainability.}
 }
 
 @inproceedings{Grossmann2025,
