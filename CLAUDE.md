@@ -52,6 +52,48 @@ Add `abstract = {...}` only when you have the **verbatim** text. Sources:
 
 Apply the escaping rules above. Don't fabricate or paraphrase.
 
+## Auditing entries for missing metadata
+
+When asked to "check entries for proper updates" (typically after a
+conference has run or a preprint has been formally published), do a
+sweeping pass over the relevant year range:
+
+1. **Inventory** which entries are missing key fields. An awk one-liner
+   over `paper.bib` summarising `year/pages/doi/url/note` per entry
+   surfaces gaps quickly.
+2. **Stale notes to retire**: `note = {accepted for publication}` once
+   the paper is out; `note = {preprint}` once it has a venue;
+   `note = {in discussion}` after the discussion phase ends. Keep
+   genuinely descriptive notes (e.g. "Presented at AI4EA Workshop 2024").
+3. **Authoritative metadata sources**:
+   - Crossref REST API: `curl -s https://api.crossref.org/works/<DOI> | python3 -m json.tool`
+     — gives canonical title, page range, container, publisher,
+     author order, ISBN. Use this whenever a DOI is known.
+   - dblp page (`https://dblp.org/rec/<conf>/<slug>.html`) — fast
+     lookup for DOIs of CVPR/ECCV/ICCV/KDD papers.
+   - CVF Open Access — canonical URL pattern
+     `openaccess.thecvf.com/content/<CONF><YEAR>/html/<slug>.html`.
+     Note CVF papers don't carry DOIs themselves; pair with the IEEE
+     DOI (`10.1109/CVPR<id>.<year>.<n>`).
+   - For Springer chapters, follow the DOI to confirm author order;
+     the bib's original author list may be from a draft and miss
+     co-authors added at publication time.
+4. **URL vs extpdf convention**: when both a canonical publisher URL
+   and an arXiv mirror exist, set `url` to the publisher (CVF, ACM DL,
+   Springer, OpenReview) and demote arXiv to `extpdf`. This keeps the
+   webpage's primary link pointing at the official record.
+5. **Author corrections**: if the published author list differs from
+   what's in the bib, fix the order and add/remove names — but keep
+   the existing bib key even if the first author changes, since the
+   key may be cited externally. Flag the discrepancy to the user.
+6. **Cross-check pages**: workshop / journal papers often get
+   renumbered between arXiv and final proceedings. Always prefer the
+   page range Crossref reports for the DOI.
+
+Entries that legitimately stay sparse: ICLR/AutoML/EurIPS workshop
+papers (no DOIs), German-only GI workshop notes without persistent
+records, and live preprints not yet at a venue.
+
 ## Teaser figures
 
 Teasers live at `/Users/rodner/dev/webpage/teaser/` (sibling repo) named
