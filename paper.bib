@@ -20,10 +20,15 @@
 @inproceedings{Knauer2026ConceptTracer,
 	author = {Knauer, Ricardo and Beinrucker, Andre and Rodner, Erik},
 	title = {ConceptTracer: Interactive Analysis of Concept Saliency and Selectivity in Neural Representations},
-	booktitle = {Fourth World Conference on eXplainable Artificial Intelligence (XAI), Late-Breaking Work Track},
+	booktitle = {Joint Proceedings of the xAI 2026 Late-breaking Work, Demos and Doctoral Consortium (LB/D/DC@xAI 2026)},
+	address = {Fortaleza, Brazil},
+	publisher = {CEUR-WS.org},
+	series = {CEUR Workshop Proceedings},
+	volume = {4259},
 	year = {2026},
-	pages = {1-8},
-	url = {https://arxiv.org/abs/2604.07019},
+	pages = {41-48},
+	url = {https://ceur-ws.org/Vol-4259/paper6.pdf},
+	extpdf = {https://arxiv.org/abs/2604.07019},
 	abstract = {Neural networks deliver impressive predictive performance across a variety of tasks, but they are often opaque in their decision-making processes. Despite a growing interest in mechanistic interpretability, tools for systematically exploring the representations learned by neural networks in general, and tabular foundation models in particular, remain limited. In this work, we introduce ConceptTracer, an interactive application for analyzing neural representations through the lens of human-interpretable concepts. ConceptTracer integrates two information-theoretic measures that quantify concept saliency and selectivity, enabling researchers and practitioners to identify neurons that respond strongly to individual concepts. We demonstrate the utility of ConceptTracer on representations learned by TabPFN and show that our approach facilitates the discovery of interpretable neurons. Together, these capabilities provide a practical framework for investigating how neural networks like TabPFN encode concept-level information. ConceptTracer is available at https://github.com/ml-lab-htw/concept-tracer.}
 }
 
@@ -80,13 +85,14 @@
 	url = {https://link.springer.com/chapter/10.1007/978-3-658-50065-8_14}
 }
 
-@article{Koddenbrock2026Raman,
+@inproceedings{Koddenbrock2026Raman,
 	author = {Koddenbrock, Mario and Lange, Christoph and Legner, Robin and J{\"a}ger, Martin and K{\"o}gler, Martin and Cruz Bournazou, Mariano N. and Neubauer, Peter and Biessmann, Felix and Rodner, Erik},
 	title = {RamanBench: A Large-Scale Benchmark for Machine Learning on Raman Spectroscopy},
-	journal = {arXiv preprint arXiv:2605.02003},
-	note = {preprint},
+	booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
 	year = {2026},
+	note = {accepted for publication},
 	url = {https://arxiv.org/abs/2605.02003},
+	code = {https://github.com/ml-lab-htw/RamanBench},
 	abstract = {Machine Learning (ML) has transformed many scientific fields, yet key applications still lack standardized benchmarks. Raman spectroscopy, a widely used technique for non-invasive molecular analysis, is one such field where progress is limited by fragmented datasets, inconsistent evaluation, and models that fail to capture the structure of spectral data. We introduce RamanBench, the first large-scale, fully reproducible benchmark for ML on Raman spectroscopy, consisting of streamlined data access, evaluation protocols and code, as well as a live leaderboard. It unifies 74 datasets (including 16 first released with this benchmark) across four domains, comprising 325,668 spectra and spanning classification and regression tasks under diverse experimental conditions. We benchmark 28 models under a standardized protocol, including classical methods (e.g., PLS), Raman-specific (e.g., RamanNet), Tabular Foundation Model (TFM) (e.g., TabPFN), and time-series approaches (e.g., ROCKET). TFM consistently outperform domain-specific and gradient boosting baselines, while time-series models remain competitive. However, no method generalizes across datasets, revealing a fundamental gap. Therefore, we invite the community to contribute new approaches to our living benchmark, with the potential to accelerate advances in critical applications such as medical diagnostics, biological research, and materials science.}
 }
 
