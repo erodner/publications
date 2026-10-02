@@ -41,6 +41,14 @@ The README covers the basics. Additional conventions seen in the file:
 - **arXiv-only preprints**: use `@article` with
   `journal = {arXiv preprint arXiv:NNNN.NNNNN}` and `note = {preprint}`.
 
+### Selected publications
+
+The webpage's "Selected Publications" list is driven by the bib field
+`selected = {yes}` (query in `~/dev/webpage/queries/selectedpub-query.json`).
+Only flag entries the user explicitly asks to select. When a paper moves
+from workshop/preprint to a journal or main venue, move the flag to the
+final version.
+
 ### Abstracts
 
 Add `abstract = {...}` only when you have the **verbatim** text. Sources:

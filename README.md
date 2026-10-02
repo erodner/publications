@@ -12,6 +12,7 @@ This is the publication repository of the computer vision and machine learning g
 * add the abstract of a paper to the abstract field in the entry
 * Springer is fine with PDFs of the publications on your own personal page or a research group page. However, you should add a link to their webpage (or a similar reference) in the PDF. Limited and paid access to publications is simply something, nobody should accept anymore in research.
 * link to the source code of your project with the ``code`` keyword in the BibTex entry
+* add ``selected = {yes}`` to show an entry in the "Selected Publications" list on www.erodner.de (the webpage filters on this field, not on the venue)
 * you can even add HTML to your abstract to for example link to your supplementary material or to other example images
 * Naming of Conferences:
   *No "Proceedings of th Xth ..." doesn't matter at all... :)
